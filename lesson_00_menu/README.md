@@ -14,9 +14,9 @@ This is a Phaser Editor 2D v3 project template.
 
 The project using two plugins which need to be installed wia npm.
 
-[Original phasereditor2d-ninepatch-plugin](https://github.com/PhaserEditor2D/phasereditor2d-ninepatch-plugin)
+Original [phasereditor2d-ninepatch-plugin](https://github.com/PhaserEditor2D/phasereditor2d-ninepatch-plugin)
 
-[Modified phasereditor2d-roundedrectangle-plugin](https://github.com/MerlinEl/phasereditor2d-roundedRectangle-plugin)
+Modified [phasereditor2d-roundedrectangle-plugin](https://github.com/MerlinEl/phasereditor2d-roundedRectangle-plugin)
 
 ## Run the editor
 
