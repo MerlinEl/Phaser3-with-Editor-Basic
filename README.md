@@ -6,6 +6,7 @@ Some basic examples which was done with Phaser 3 and Phaser Editor 2D
 [Source Code](https://github.com/MerlinEl/Phaser3-with-Editor-Basic)
 
 Many Thanks to:
+
 [Richard Davey-photonstorm](https://github.com/photonstorm)
 
 [Arian Fornaris](https://github.com/PhaserEditor2D)
