@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<style>
+		div.gui{
+			position: absolute;
+			top: 5%;
+			left: 5%;
+		}
+	</style>
+	<title>Menu</title>
+	
+	<!-- libraries -->
+	<script src="lib/phaser/phaser.js"></script>
+	<script src="lib/orien/orien.js"></script>
+	<script src="lib/orien/AssetLoader.js"></script>
+
+	<!-- component base -->
+	<script src="src/components/UserComponent.js"></script>
+
+	<!-- scenes -->
+	<script src="src/scenes/Preload.js"></script>
+	<script src="src/main.js"></script>
+
+	<style>
+		body {
+			background: #c8c9ff;
+			background-image: url('assets/images/top-background-horni.jpg');
+			background-repeat: no-repeat;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="gui" id="gui-container"></div>
+	<options id="browser-options" clear_cache="true" ></options>
+	<!-- <canvas id="canvas"></canvas> -->
+	<!-- <iframe src="src/components/"></iframe> -->
+</body>
+
+</html>

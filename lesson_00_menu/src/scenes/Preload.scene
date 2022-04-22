@@ -1,0 +1,58 @@
+{
+    "id": "04331fb6-ed91-4d74-b6e9-4bfe0fcfb457",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadMethodName": "editorPreload",
+        "preloadPackFiles": [
+            "lesson_00_menu/assets/menu-asset-pack.json",
+            "lesson_00_menu/assets/scene-asset-pack.json"
+        ],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Preload",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "2ce42443-5227-4c9b-b498-e81f9a21cde3",
+            "label": "progress",
+            "components": [
+                "PreloadText"
+            ],
+            "x": 514,
+            "y": 418,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "0%",
+            "fontSize": "20px",
+            "color": "#39D9F5",
+            "stroke": "#5E5EEF",
+            "strokeThickness": 1
+        },
+        {
+            "type": "Sprite",
+            "id": "8218b0e6-6d0a-47ac-b886-4ab446cefb95",
+            "label": "level_loader_01",
+            "components": [
+                "StartAnimation"
+            ],
+            "StartAnimation.animationKey": "anim_level_loader",
+            "texture": {
+                "key": "loader_atlas",
+                "frame": "level_loader0001"
+            },
+            "x": 512,
+            "y": 421,
+            "scaleX": 0.75,
+            "scaleY": 0.75
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

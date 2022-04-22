@@ -1,0 +1,713 @@
+{
+    "id": "2c3eace4-dfe9-4239-bb15-9e44a8ac0031",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level_002",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "Ellipse",
+            "id": "e7ae2ed7-5c9a-4a52-baac-b69d69e92d51",
+            "label": "ellipse_2",
+            "components": [],
+            "x": 40,
+            "y": 133,
+            "isFilled": true,
+            "fillColor": "#6830ad",
+            "strokeColor": "#aa7edf",
+            "isStroked": true,
+            "width": 30,
+            "height": 30
+        },
+        {
+            "type": "Rectangle",
+            "id": "f7395306-8a65-4247-92fe-c6dc84880ae2",
+            "label": "rectangle",
+            "components": [],
+            "originX": 0,
+            "originY": 0,
+            "strokeColor": "#d3b9f2",
+            "lineWidth": 3,
+            "isStroked": true,
+            "width": 1024,
+            "height": 768
+        },
+        {
+            "type": "Layer",
+            "id": "766f48c3-c6fa-45fb-8277-162fd351be2d",
+            "label": "layer_title",
+            "components": [],
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "e29635fe-df60-42a6-ab31-ea4fe75969c3",
+            "label": "linear_gradient_01_1",
+            "components": [],
+            "texture": {
+                "key": "linear_gradient_01"
+            },
+            "x": 68,
+            "y": 119,
+            "scaleX": 9.561243871939784,
+            "scaleY": 0.31278082529123086,
+            "originX": 0,
+            "originY": 0,
+            "alphaTopRight": 0,
+            "alphaBottomRight": 0,
+            "tintTopLeft": "#3a87f0",
+            "tintTopRight": "#3a87f0",
+            "tintBottomLeft": "#c83af0",
+            "tintBottomRight": "#c83af0"
+        },
+        {
+            "type": "Text",
+            "id": "30f3b269-3294-4f7a-8c78-711a4c855b45",
+            "label": "text_1_1",
+            "components": [
+                "NavigateToScene"
+            ],
+            "NavigateToScene.hitAreaScaleY": 1.5,
+            "x": 75,
+            "y": 134,
+            "originY": 0.5,
+            "text": "Menu",
+            "fontFamily": "Arial",
+            "fontSize": "22px",
+            "color": "#f5dbf5ff",
+            "stroke": "#8b8cb2",
+            "strokeThickness": 1,
+            "shadow.offsetX": 2,
+            "shadow.offsetY": 2,
+            "shadow.fill": true,
+            "shadow.color": "#1d5970ff"
+        },
+        {
+            "type": "Text",
+            "id": "1ff0109d-8b6b-4a7c-a299-0fcfb0c66083",
+            "label": "text_1_1_1_1",
+            "components": [],
+            "x": 39,
+            "y": 133,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "0",
+            "fontFamily": "Arial",
+            "fontSize": "22px",
+            "color": "#aa7edf",
+            "stroke": "#8b8cb2",
+            "strokeThickness": 1,
+            "shadow.offsetX": 2,
+            "shadow.offsetY": 2,
+            "shadow.fill": true,
+            "shadow.color": "#1d5970ff"
+        },
+        {
+            "type": "Layer",
+            "id": "f95361c5-e417-474e-9bb0-ad4b085f7c9d",
+            "label": "all_color_buttons",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "2cb364ef-e994-4afa-b51d-f5c9c26e2447",
+                    "label": "color_palette_sprites0",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_01",
+                    "ComponentBase.hexColor": "0xffffff",
+                    "ClickButton.hitAreaScaleX": 1.8,
+                    "ClickButton.hitAreaScaleY": 2.2,
+                    "ClickButton.actionName": "colorize-active-shape",
+                    "texture": {
+                        "key": "color_palette_sprites",
+                        "frame": 0
+                    },
+                    "x": 194,
+                    "y": 526
+                },
+                {
+                    "type": "Image",
+                    "id": "0759a3e2-fe45-4832-a538-fb381faf02c3",
+                    "label": "color_palette_sprites1",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_02",
+                    "ComponentBase.hexColor": "0x000000",
+                    "ClickButton.hitAreaScaleX": 1.8,
+                    "ClickButton.hitAreaScaleY": 2.2,
+                    "ClickButton.actionName": "colorize-active-shape",
+                    "texture": {
+                        "key": "color_palette_sprites",
+                        "frame": 1
+                    },
+                    "x": 269,
+                    "y": 525
+                },
+                {
+                    "type": "Image",
+                    "id": "d8e8910d-e892-4163-a1aa-099e3f5d0d8d",
+                    "label": "color_palette_sprites2",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_03",
+                    "ComponentBase.hexColor": "0xb52229",
+                    "ClickButton.hitAreaScaleX": 1.8,
+                    "ClickButton.hitAreaScaleY": 2.2,
+                    "ClickButton.actionName": "colorize-active-shape",
+                    "texture": {
+                        "key": "color_palette_sprites",
+                        "frame": 2
+                    },
+                    "x": 344,
+                    "y": 526
+                },
+                {
+                    "type": "Image",
+                    "id": "802737bb-6074-42ed-8a2d-8f03c1bb4141",
+                    "label": "color_palette_sprites3",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_04",
+                    "ComponentBase.hexColor": "0xe4adcc",
+                    "ClickButton.hitAreaScaleX": 1.8,
+                    "ClickButton.hitAreaScaleY": 2.2,
+                    "ClickButton.actionName": "colorize-active-shape",
+                    "texture": {
+                        "key": "color_palette_sprites",
+                        "frame": 3
+                    },
+                    "x": 419,
+                    "y": 526
+                },
+                {
+                    "type": "Image",
+                    "id": "c03e9b31-3336-45a0-8fc0-510cffb0c3b6",
+                    "label": "color_palette_sprites4",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_5",
+                    "ComponentBase.hexColor": "0x805ca4",
+                    "ClickButton.hitAreaScaleX": 1.8,
+                    "ClickButton.hitAreaScaleY": 2.2,
+                    "ClickButton.actionName": "colorize-active-shape",
+                    "texture": {
+                        "key": "color_palette_sprites",
+                        "frame": 4
+                    },
+                    "x": 494,
+                    "y": 526
+                },
+                {
+                    "type": "Image",
+                    "id": "946c7f79-628f-47e6-907d-62f39bf9794a",
+                    "label": "color_palette_sprites5",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_06",
+                    "ComponentBase.hexColor": "0x61aded",
+                    "ClickButton.hitAreaScaleX": 1.8,
+                    "ClickButton.hitAreaScaleY": 2.2,
+                    "ClickButton.actionName": "colorize-active-shape",
+                    "texture": {
+                        "key": "color_palette_sprites",
+                        "frame": 5
+                    },
+                    "x": 569,
+                    "y": 526
+                },
+                {
+                    "type": "Image",
+                    "id": "4064a573-b181-48bc-88b7-a15695112c2b",
+                    "label": "color_palette_sprites6",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_07",
+                    "ComponentBase.hexColor": "0x6ead50",
+                    "ClickButton.hitAreaScaleX": 1.8,
+                    "ClickButton.hitAreaScaleY": 2.2,
+                    "ClickButton.actionName": "colorize-active-shape",
+                    "texture": {
+                        "key": "color_palette_sprites",
+                        "frame": 6
+                    },
+                    "x": 644,
+                    "y": 526
+                },
+                {
+                    "type": "Image",
+                    "id": "cbfe34c6-e335-44db-af5d-95f49b115f74",
+                    "label": "color_palette_sprites7",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_08",
+                    "ComponentBase.hexColor": "0xfbf135",
+                    "ClickButton.hitAreaScaleX": 1.8,
+                    "ClickButton.hitAreaScaleY": 2.2,
+                    "ClickButton.actionName": "colorize-active-shape",
+                    "texture": {
+                        "key": "color_palette_sprites",
+                        "frame": 7
+                    },
+                    "x": 719,
+                    "y": 526
+                },
+                {
+                    "type": "Image",
+                    "id": "1a3c4a4a-459e-45de-97e1-b799ad36e9f5",
+                    "label": "color_palette_sprites8",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_09",
+                    "ComponentBase.hexColor": "0xd87328",
+                    "ClickButton.hitAreaScaleX": 1.8,
+                    "ClickButton.hitAreaScaleY": 2.2,
+                    "ClickButton.actionName": "colorize-active-shape",
+                    "texture": {
+                        "key": "color_palette_sprites",
+                        "frame": 8
+                    },
+                    "x": 794,
+                    "y": 526
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "09dc600d-475e-4bb9-adff-c0931dcb723e",
+            "label": "all_color_shapes",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "5a25b01e-c055-4bd5-b32e-abd41a6e1e36",
+                    "label": "rectangle_01_1",
+                    "scope": "CLASS",
+                    "components": [
+                        "CmpShapeBase",
+                        "CmpShapeMarkable",
+                        "ComponentBase",
+                        "MarkableShape"
+                    ],
+                    "ComponentBase.instanceName": "shp_rectangle_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xff0000",
+                    "ComponentBase.componentType": "Shape",
+                    "MarkableShape.markHexColor": "0xffffff",
+                    "x": 220,
+                    "y": 367,
+                    "isFilled": true,
+                    "strokeColor": "#2c2929",
+                    "lineWidth": 3,
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "c84b9c1a-73ba-41c8-8fe1-43b97e12dac5",
+                    "label": "ellipse_01_1",
+                    "scope": "CLASS",
+                    "components": [
+                        "CmpShapeBase",
+                        "CmpShapeMarkable",
+                        "ComponentBase",
+                        "MarkableShape"
+                    ],
+                    "ComponentBase.instanceName": "shp_circle_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0x00ff00",
+                    "ComponentBase.componentType": "Shape",
+                    "MarkableShape.isMarked": true,
+                    "MarkableShape.markHexColor": "0xffffff",
+                    "x": 498,
+                    "y": 367,
+                    "isFilled": true,
+                    "strokeColor": "#2c2929",
+                    "lineWidth": 3,
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Triangle",
+                    "id": "ab8c0d15-3b37-4f25-b9be-d7f914144133",
+                    "label": "triangle_01_1",
+                    "scope": "CLASS",
+                    "components": [
+                        "CmpShapeBase",
+                        "CmpShapeMarkable",
+                        "ComponentBase",
+                        "MarkableShape"
+                    ],
+                    "ComponentBase.instanceName": "shp_triangle_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0x0000ff",
+                    "ComponentBase.componentType": "Shape",
+                    "MarkableShape.markHexColor": "0xffffff",
+                    "x": 776,
+                    "y": 367,
+                    "isFilled": true,
+                    "strokeColor": "#2c2929",
+                    "lineWidth": 3,
+                    "isStroked": true
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "f209d5f0-fed7-4635-921a-f8537a0fa207",
+            "label": "layer_bottom_bar",
+            "components": [],
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "4d14e27e-1829-492e-a904-44c16fb55de5",
+                    "label": "ellipse_1_1",
+                    "components": [],
+                    "x": 1000,
+                    "y": 762,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "76a5dabd-88d5-4dbb-8c1b-e9ab0ad2753d",
+                    "label": "ellipse_1_1_1",
+                    "components": [],
+                    "x": 19,
+                    "y": 762,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "c595b70c-655e-4f7c-9978-45e6eb720906",
+            "label": "layer_top_bar",
+            "components": [],
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "3ebc9d62-2a8b-4e3f-8598-df1cabb2248a",
+                    "label": "ellipse",
+                    "components": [],
+                    "x": 19,
+                    "y": 21,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "ba404040-c386-4d3b-80f3-c8866ee5b8e0",
+                    "label": "ellipse_1",
+                    "components": [],
+                    "x": 1000,
+                    "y": 21,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "0fd25ca5-b0f6-462b-9d72-4bb54303ab26",
+                    "label": "guapen",
+                    "components": [
+                        "NavigateToURL"
+                    ],
+                    "NavigateToURL.urlPath": "https://github.com/PhaserEditor2D",
+                    "NavigateToURL.hitAreaScaleX": 1.5,
+                    "NavigateToURL.hitAreaScaleY": 1.5,
+                    "texture": {
+                        "key": "guapen"
+                    },
+                    "x": 990,
+                    "y": 39,
+                    "scaleX": 0.2,
+                    "scaleY": 0.2
+                },
+                {
+                    "type": "Image",
+                    "id": "75bf15df-0f50-4810-852f-22d49083d539",
+                    "label": "dino",
+                    "components": [
+                        "NavigateToURL"
+                    ],
+                    "NavigateToURL.folderName": "",
+                    "NavigateToURL.urlPath": "https://phasereditor2d.com",
+                    "texture": {
+                        "key": "dino"
+                    },
+                    "x": 39,
+                    "y": 39,
+                    "scaleX": 0.27351126855200214,
+                    "scaleY": 0.27351126855200214
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "b33da597-87f5-45d5-9664-4a5a33db58c7",
+                    "label": "ellipse_3",
+                    "components": [],
+                    "x": 512,
+                    "y": 66,
+                    "scaleX": 3.574798860543812,
+                    "scaleY": 0.48050780880489197,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Text",
+                    "id": "c444e208-d94b-433f-921d-b732e24288a6",
+                    "label": "text_1_1_1_1_1",
+                    "components": [],
+                    "x": 512,
+                    "y": 78,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Change Selection And Color",
+                    "fontFamily": "Arial",
+                    "fontSize": "22px",
+                    "color": "#f5dbf5ff",
+                    "stroke": "#8b8cb2",
+                    "strokeThickness": 1,
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.fill": true,
+                    "shadow.color": "#1d5970ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "76c050f3-21be-4abf-8b26-5199c637b44a",
+                    "label": "linear_gradient_01_2",
+                    "components": [],
+                    "texture": {
+                        "key": "linear_gradient_01"
+                    },
+                    "x": 512,
+                    "y": 33,
+                    "scaleX": -4,
+                    "scaleY": 0.2618162344206787,
+                    "originX": 0,
+                    "originY": 0,
+                    "alphaTopRight": 0,
+                    "alphaBottomRight": 0,
+                    "tintTopLeft": "#3093f6",
+                    "tintTopRight": "#3093f6",
+                    "tintBottomLeft": "#c83af0",
+                    "tintBottomRight": "#c83af0"
+                },
+                {
+                    "type": "Image",
+                    "id": "e948ef61-28d5-4d75-9467-6d1d9dc9758b",
+                    "label": "linear_gradient_01",
+                    "components": [],
+                    "texture": {
+                        "key": "linear_gradient_01"
+                    },
+                    "x": 512,
+                    "y": 33,
+                    "scaleX": 4,
+                    "scaleY": 0.2618162344206787,
+                    "originX": 0,
+                    "originY": 0,
+                    "alphaTopRight": 0,
+                    "alphaBottomRight": 0,
+                    "tintTopLeft": "#3093f6",
+                    "tintTopRight": "#3093f6",
+                    "tintBottomLeft": "#c83af0",
+                    "tintBottomRight": "#c83af0"
+                },
+                {
+                    "type": "Text",
+                    "id": "209d5ea9-0935-4947-839f-bdafc33cf8e3",
+                    "label": "text_title",
+                    "components": [],
+                    "x": 512,
+                    "y": 46,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Phaser 3 - HTML5",
+                    "fontFamily": "vijaya_cz",
+                    "fontSize": "40px",
+                    "color": "#f5dbf5ff",
+                    "stroke": "#8b8cb2",
+                    "strokeThickness": 1,
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.fill": true,
+                    "shadow.color": "#5e41a2ff"
+                },
+                {
+                    "type": "RoundedRectangle",
+                    "id": "127ede54-bc23-4138-a2ac-51f8c9f68fc5",
+                    "label": "roundedrectangle",
+                    "components": [],
+                    "x": 959,
+                    "y": 123,
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 50,
+                    "height": 250,
+                    "radius": 20,
+                    "radiusTL": 20,
+                    "radiusTR": 20,
+                    "radiusBL": 20,
+                    "radiusBR": 20,
+                    "fillColor": "#6830ad",
+                    "isStroked": true,
+                    "strokeColor": "#aa7edf",
+                    "shadowAlpha": 0
+                },
+                {
+                    "prefabId": "cd7f52ab-9c14-4e9b-a8ce-38abfefedc20",
+                    "id": "e49d66fc-ecda-4d58-b9f6-7afb3b410e4a",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnGitHub",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_github_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "Button",
+                    "x": 984,
+                    "y": 339,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "fda9c326-7276-4db3-b72a-cea60406943c",
+                    "id": "fd7f3069-01d9-4ce6-8db4-91ff1d7589e0",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnRefreshPage",
+                    "scope": "CLASS",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_reload_page_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "Button",
+                    "x": 984,
+                    "y": 219,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "ea2929bc-a65f-4039-9b69-5cb251333f73",
+                    "id": "aa6ee580-248b-4863-9062-65d1019b75ee",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnFullScreen",
+                    "scope": "CLASS",
+                    "components": [
+                        "ComponentBase",
+                        "SwitchButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_fullscreen_switch_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "SwitchButton",
+                    "x": 984,
+                    "y": 159,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "edfb58ce-0c27-45c0-a8cd-57193467122b",
+                    "id": "d6c64b39-c2bc-44e4-ace6-69b723e57c72",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnHome",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_home_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "SwitchButton",
+                    "x": 984,
+                    "y": 279,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

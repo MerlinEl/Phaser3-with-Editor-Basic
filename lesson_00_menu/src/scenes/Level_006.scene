@@ -1,0 +1,661 @@
+{
+    "id": "c6460531-9f06-4157-a9b7-d78d0a9cc499",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level_006",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "Ellipse",
+            "id": "e7ae2ed7-5c9a-4a52-baac-b69d69e92d51",
+            "label": "ellipse_2",
+            "components": [],
+            "x": 40,
+            "y": 133,
+            "isFilled": true,
+            "fillColor": "#6830ad",
+            "strokeColor": "#aa7edf",
+            "isStroked": true,
+            "width": 30,
+            "height": 30
+        },
+        {
+            "type": "Layer",
+            "id": "766f48c3-c6fa-45fb-8277-162fd351be2d",
+            "label": "layer_title",
+            "components": [],
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "e29635fe-df60-42a6-ab31-ea4fe75969c3",
+            "label": "linear_gradient_01_1",
+            "components": [],
+            "texture": {
+                "key": "linear_gradient_01"
+            },
+            "x": 68,
+            "y": 119,
+            "scaleX": 9.561243871939784,
+            "scaleY": 0.31278082529123086,
+            "originX": 0,
+            "originY": 0,
+            "alphaTopRight": 0,
+            "alphaBottomRight": 0,
+            "tintTopLeft": "#3a87f0",
+            "tintTopRight": "#3a87f0",
+            "tintBottomLeft": "#c83af0",
+            "tintBottomRight": "#c83af0"
+        },
+        {
+            "type": "Rectangle",
+            "id": "f7395306-8a65-4247-92fe-c6dc84880ae2",
+            "label": "rectangle",
+            "components": [],
+            "originX": 0,
+            "originY": 0,
+            "strokeColor": "#d3b9f2",
+            "lineWidth": 3,
+            "isStroked": true,
+            "width": 1024,
+            "height": 768
+        },
+        {
+            "type": "Text",
+            "id": "30f3b269-3294-4f7a-8c78-711a4c855b45",
+            "label": "text_1_1",
+            "components": [
+                "NavigateToScene"
+            ],
+            "NavigateToScene.hitAreaScaleY": 1.5,
+            "x": 75,
+            "y": 134,
+            "originY": 0.5,
+            "text": "Menu",
+            "fontFamily": "Arial",
+            "fontSize": "22px",
+            "color": "#f5dbf5ff",
+            "stroke": "#8b8cb2",
+            "strokeThickness": 1,
+            "shadow.offsetX": 2,
+            "shadow.offsetY": 2,
+            "shadow.fill": true,
+            "shadow.color": "#1d5970ff"
+        },
+        {
+            "type": "Text",
+            "id": "1ff0109d-8b6b-4a7c-a299-0fcfb0c66083",
+            "label": "text_1_1_1_1",
+            "components": [],
+            "x": 39,
+            "y": 133,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "0",
+            "fontFamily": "Arial",
+            "fontSize": "22px",
+            "color": "#aa7edf",
+            "stroke": "#8b8cb2",
+            "strokeThickness": 1,
+            "shadow.offsetX": 2,
+            "shadow.offsetY": 2,
+            "shadow.fill": true,
+            "shadow.color": "#1d5970ff"
+        },
+        {
+            "type": "Layer",
+            "id": "a8e6c895-a9f0-43db-b9a3-7b30fd5b7d43",
+            "label": "layer_top_buttons",
+            "components": [],
+            "list": []
+        },
+        {
+            "type": "Layer",
+            "id": "c6c6dbde-9012-420a-aef9-16e0f986f7ca",
+            "label": "layer_bottom_bar",
+            "components": [],
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "d05c93a4-3b19-4155-9a3e-b23ba0d5e49a",
+                    "label": "ellipse_1_1",
+                    "components": [],
+                    "x": 1000,
+                    "y": 762,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "feabebe0-cc22-4d62-8634-d98849665fd2",
+                    "label": "ellipse_1_1_1",
+                    "components": [],
+                    "x": 19,
+                    "y": 762,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "9905d5f1-ffa1-4580-ab7c-6a39153a3c67",
+            "label": "layer_top_bar",
+            "components": [],
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "188b763c-7141-4183-b063-e7fe60652b5e",
+                    "label": "ellipse",
+                    "components": [],
+                    "x": 19,
+                    "y": 21,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "736eb966-7184-4569-8f46-f17f08d67dde",
+                    "label": "ellipse_1",
+                    "components": [],
+                    "x": 1000,
+                    "y": 21,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "b4f70fee-b788-4c65-9bd2-ed55d4c754eb",
+                    "label": "guapen",
+                    "components": [
+                        "NavigateToURL"
+                    ],
+                    "NavigateToURL.urlPath": "https://github.com/PhaserEditor2D",
+                    "NavigateToURL.hitAreaScaleX": 1.5,
+                    "NavigateToURL.hitAreaScaleY": 1.5,
+                    "texture": {
+                        "key": "guapen"
+                    },
+                    "x": 990,
+                    "y": 39,
+                    "scaleX": 0.2,
+                    "scaleY": 0.2
+                },
+                {
+                    "type": "Image",
+                    "id": "ffb60c6a-02b5-4e2a-b95a-ce77297c05ad",
+                    "label": "dino",
+                    "components": [
+                        "NavigateToURL"
+                    ],
+                    "NavigateToURL.folderName": "",
+                    "NavigateToURL.urlPath": "https://phasereditor2d.com",
+                    "texture": {
+                        "key": "dino"
+                    },
+                    "x": 39,
+                    "y": 39,
+                    "scaleX": 0.27351126855200214,
+                    "scaleY": 0.27351126855200214
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "8d125a81-aa78-48f3-831b-3dddeb8e53c5",
+                    "label": "ellipse_3",
+                    "components": [],
+                    "x": 512,
+                    "y": 66,
+                    "scaleX": 3.574798860543812,
+                    "scaleY": 0.48050780880489197,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Text",
+                    "id": "d4cd4d4f-d157-4c4a-bfb1-5160cc06fb21",
+                    "label": "text_1_1_1_1_1",
+                    "components": [],
+                    "x": 512,
+                    "y": 78,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Shuffle",
+                    "fontFamily": "Arial",
+                    "fontSize": "22px",
+                    "color": "#f5dbf5ff",
+                    "stroke": "#8b8cb2",
+                    "strokeThickness": 1,
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.fill": true,
+                    "shadow.color": "#1d5970ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "f1c3a3a6-1a2b-42f5-bfe1-d048b28f8a9c",
+                    "label": "linear_gradient_01_2",
+                    "components": [],
+                    "texture": {
+                        "key": "linear_gradient_01"
+                    },
+                    "x": 512,
+                    "y": 33,
+                    "scaleX": -4,
+                    "scaleY": 0.2618162344206787,
+                    "originX": 0,
+                    "originY": 0,
+                    "alphaTopRight": 0,
+                    "alphaBottomRight": 0,
+                    "tintTopLeft": "#3093f6",
+                    "tintTopRight": "#3093f6",
+                    "tintBottomLeft": "#c83af0",
+                    "tintBottomRight": "#c83af0"
+                },
+                {
+                    "type": "Image",
+                    "id": "04d0506c-2b0d-4fbe-905b-4790871ec108",
+                    "label": "linear_gradient_01",
+                    "components": [],
+                    "texture": {
+                        "key": "linear_gradient_01"
+                    },
+                    "x": 512,
+                    "y": 33,
+                    "scaleX": 4,
+                    "scaleY": 0.2618162344206787,
+                    "originX": 0,
+                    "originY": 0,
+                    "alphaTopRight": 0,
+                    "alphaBottomRight": 0,
+                    "tintTopLeft": "#3093f6",
+                    "tintTopRight": "#3093f6",
+                    "tintBottomLeft": "#c83af0",
+                    "tintBottomRight": "#c83af0"
+                },
+                {
+                    "type": "Text",
+                    "id": "9852f6a2-5a15-4155-bae8-9b5c336619f2",
+                    "label": "text_title",
+                    "components": [],
+                    "x": 512,
+                    "y": 46,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Phaser 3 - HTML5",
+                    "fontFamily": "vijaya_cz",
+                    "fontSize": "40px",
+                    "color": "#f5dbf5ff",
+                    "stroke": "#8b8cb2",
+                    "strokeThickness": 1,
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.fill": true,
+                    "shadow.color": "#5e41a2ff"
+                },
+                {
+                    "type": "RoundedRectangle",
+                    "id": "2ba32513-fd91-47ff-86b7-e291574a1dbb",
+                    "label": "roundedrectangle",
+                    "components": [],
+                    "x": 959,
+                    "y": 123,
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 50,
+                    "height": 250,
+                    "radius": 20,
+                    "radiusTL": 20,
+                    "radiusTR": 20,
+                    "radiusBL": 20,
+                    "radiusBR": 20,
+                    "fillColor": "#6830ad",
+                    "isStroked": true,
+                    "strokeColor": "#aa7edf",
+                    "shadowAlpha": 0
+                },
+                {
+                    "prefabId": "cd7f52ab-9c14-4e9b-a8ce-38abfefedc20",
+                    "id": "ee5cac1c-b3ab-4d80-8d1c-b50e0e8e79f0",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnGitHub",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_github_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "Button",
+                    "x": 984,
+                    "y": 339,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "fda9c326-7276-4db3-b72a-cea60406943c",
+                    "id": "4b5cae02-546c-4672-82da-08c9c15644cc",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnRefreshPage",
+                    "scope": "CLASS",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_reload_page_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "Button",
+                    "x": 984,
+                    "y": 219,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "ea2929bc-a65f-4039-9b69-5cb251333f73",
+                    "id": "457b9c61-9a8f-4631-8ac6-25107c46d97e",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnFullScreen",
+                    "scope": "CLASS",
+                    "components": [
+                        "ComponentBase",
+                        "SwitchButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_fullscreen_switch_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "SwitchButton",
+                    "x": 984,
+                    "y": 159,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "edfb58ce-0c27-45c0-a8cd-57193467122b",
+                    "id": "b93e8260-205c-47eb-a86d-61510c949251",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnHome",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_home_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "SwitchButton",
+                    "x": 984,
+                    "y": 279,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "5a4d05e3-a3f8-4f5e-8a28-9029f68360cd",
+            "label": "layer_all_cards",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "prefabId": "50551366-6bf3-4217-ac52-cbbcbd745226",
+                    "id": "3fc6cfa2-82e4-49d2-aef7-c65501b3ed71",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "cardText",
+                        "textColor",
+                        "bgColor"
+                    ],
+                    "label": "card_01",
+                    "cardText": "A",
+                    "textColor": "0x005200",
+                    "bgColor": "0x00c400",
+                    "components": [
+                        "ComponentBase",
+                        "DragAndDrop"
+                    ],
+                    "ComponentBase.instanceName": "card_01",
+                    "ComponentBase.componentType": "Container",
+                    "DragAndDrop.hitAreaScaleX": 1.1,
+                    "DragAndDrop.hitAreaScaleY": 1.2,
+                    "x": 217,
+                    "y": 305,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "50551366-6bf3-4217-ac52-cbbcbd745226",
+                    "id": "70f64c4b-56cb-4b9b-9428-9221a7729fe3",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "cardText",
+                        "textColor",
+                        "bgColor"
+                    ],
+                    "label": "card_01_1",
+                    "cardText": "B",
+                    "textColor": "0x005200",
+                    "bgColor": "0x00c400",
+                    "components": [
+                        "ComponentBase",
+                        "DragAndDrop"
+                    ],
+                    "ComponentBase.instanceName": "card_02",
+                    "ComponentBase.componentType": "Container",
+                    "DragAndDrop.hitAreaScaleX": 1.1,
+                    "DragAndDrop.hitAreaScaleY": 1.2,
+                    "x": 492,
+                    "y": 305,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "50551366-6bf3-4217-ac52-cbbcbd745226",
+                    "id": "b26a9e06-f5fe-48ef-ade4-938aa7e63358",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "cardText",
+                        "textColor",
+                        "bgColor"
+                    ],
+                    "label": "card_01_2",
+                    "cardText": "C",
+                    "textColor": "0x005200",
+                    "bgColor": "0x00c400",
+                    "components": [
+                        "ComponentBase",
+                        "DragAndDrop"
+                    ],
+                    "ComponentBase.instanceName": "card_03",
+                    "ComponentBase.componentType": "Container",
+                    "DragAndDrop.hitAreaScaleX": 1.1,
+                    "DragAndDrop.hitAreaScaleY": 1.2,
+                    "x": 764,
+                    "y": 305,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "50551366-6bf3-4217-ac52-cbbcbd745226",
+                    "id": "aea108a7-25a6-4b54-8cfc-db62ff7e1727",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "cardText",
+                        "textColor",
+                        "bgColor"
+                    ],
+                    "label": "card_01_3",
+                    "cardText": "F",
+                    "textColor": "0x4d3c21",
+                    "bgColor": "0xdda055",
+                    "components": [
+                        "ComponentBase",
+                        "DragAndDrop"
+                    ],
+                    "ComponentBase.instanceName": "card_06",
+                    "ComponentBase.componentType": "Container",
+                    "DragAndDrop.hitAreaScaleX": 1.1,
+                    "DragAndDrop.hitAreaScaleY": 1.2,
+                    "x": 764,
+                    "y": 463,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "50551366-6bf3-4217-ac52-cbbcbd745226",
+                    "id": "e75ad753-56f7-4f2f-a541-c7a023f268d7",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "cardText",
+                        "textColor",
+                        "bgColor"
+                    ],
+                    "label": "card_01_4",
+                    "cardText": "D",
+                    "textColor": "0x4d3c21",
+                    "bgColor": "0xdda055",
+                    "components": [
+                        "ComponentBase",
+                        "DragAndDrop"
+                    ],
+                    "ComponentBase.instanceName": "card_04",
+                    "ComponentBase.componentType": "Container",
+                    "DragAndDrop.hitAreaScaleX": 1.1,
+                    "DragAndDrop.hitAreaScaleY": 1.2,
+                    "x": 217,
+                    "y": 463,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "50551366-6bf3-4217-ac52-cbbcbd745226",
+                    "id": "f56f9de0-4311-4d1e-b7b4-492a30a7f2ff",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "cardText",
+                        "textColor",
+                        "bgColor"
+                    ],
+                    "label": "card_01_5",
+                    "cardText": "E",
+                    "textColor": "0x4d3c21",
+                    "bgColor": "0xdda055",
+                    "components": [
+                        "ComponentBase",
+                        "DragAndDrop"
+                    ],
+                    "ComponentBase.instanceName": "card_05",
+                    "ComponentBase.componentType": "Container",
+                    "DragAndDrop.hitAreaScaleX": 1.1,
+                    "DragAndDrop.hitAreaScaleY": 1.2,
+                    "x": 492,
+                    "y": 463,
+                    "nestedPrefabs": []
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "36cb57c6-9006-497c-a187-91c1785acd92",
+            "label": "container_btn_shuffle",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "btn_shuffle",
+            "ComponentBase.componentType": "Container",
+            "ClickButton.actionName": "shuffle-cards",
+            "x": 495,
+            "y": 649,
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "3b857717-ecdd-4832-8292-5e310a82ec65",
+                    "label": "ellipse_4",
+                    "components": [],
+                    "y": 1,
+                    "isFilled": true,
+                    "fillColor": "#d52be7",
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 200,
+                    "height": 128
+                },
+                {
+                    "type": "Text",
+                    "id": "b4744ba7-7d94-481a-980a-d238433bd498",
+                    "label": "text_1_1_1_2",
+                    "components": [],
+                    "y": 1,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "SHUFFLE",
+                    "fontFamily": "Arial",
+                    "fontSize": "40px",
+                    "color": "#f5dbf5ff",
+                    "stroke": "#8b8cb2",
+                    "strokeThickness": 1,
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.fill": true,
+                    "shadow.color": "#1d5970ff"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

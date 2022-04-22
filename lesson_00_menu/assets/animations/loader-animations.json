@@ -1,0 +1,306 @@
+{
+    "anims": [
+        {
+            "key": "anim_level_loader",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0028",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0029",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0030",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0031",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0032",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0033",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0034",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0035",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0036",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0037",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0038",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0039",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0040",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0041",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0042",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0043",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0044",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0045",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0046",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0047",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "loader_atlas",
+                    "frame": "level_loader0048",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

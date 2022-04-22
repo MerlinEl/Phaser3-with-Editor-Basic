@@ -1,0 +1,75 @@
+{
+    "id": "56ed7455-f9b4-48fe-8c38-5a80d592ef4f",
+    "sceneType": "PREFAB",
+    "settings": {
+        "generateAwakeHandler": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 100,
+        "borderHeight": 100
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "02464270-48f3-4fda-9fbe-3d92c874182e",
+            "label": "container_1",
+            "components": [],
+            "x": 50,
+            "y": 50,
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "556376da-ad81-456a-b20f-37926851382f",
+                    "label": "status_icon_01",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -32,
+                    "isFilled": true,
+                    "fillColor": "#c0c0c0",
+                    "strokeColor": "#6830ad",
+                    "isStroked": true,
+                    "width": 18,
+                    "height": 18
+                },
+                {
+                    "type": "Text",
+                    "id": "376c4e2c-dc32-4ea4-9c3c-da064a85094a",
+                    "label": "tf_01",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -16,
+                    "originY": 0.5,
+                    "text": "None",
+                    "fontSize": "20px"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "progressStatus",
+            "label": "Progress Status",
+            "tooltip": "Progress Status",
+            "defValue": "None",
+            "customDefinition": false,
+            "type": {
+                "id": "option",
+                "options": [
+                    "Done",
+                    "Error",
+                    "In Progress",
+                    "On Hold",
+                    "None"
+                ]
+            }
+        }
+    ]
+}

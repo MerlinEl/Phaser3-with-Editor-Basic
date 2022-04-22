@@ -1,0 +1,7 @@
+{
+	"skip": [],
+    "plugins": [
+		"lib/plugins/phasereditor2d-ninepatch-plugin",
+		"lib/plugins/phasereditor2d-roundedrectangle-plugin"
+    ]
+}

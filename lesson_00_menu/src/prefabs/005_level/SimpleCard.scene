@@ -1,0 +1,144 @@
+{
+    "id": "50551366-6bf3-4217-ac52-cbbcbd745226",
+    "sceneType": "PREFAB",
+    "settings": {
+        "generateAwakeHandler": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 200,
+        "borderHeight": 100
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "98d474c5-b759-488a-9f56-f39c5ecd6353",
+            "label": "container_1",
+            "components": [],
+            "x": 100,
+            "y": 50,
+            "list": [
+                {
+                    "type": "NinePatch",
+                    "id": "cedf7a1e-2924-4d03-bfd7-b2a968eccf86",
+                    "label": "bg_skin_01",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "components_01",
+                        "frame": "card_01_body"
+                    },
+                    "x": -93.04065704345703,
+                    "y": -41.798702239990234,
+                    "scaleX": 0.9304065568553636,
+                    "scaleY": 0.9304065568553636,
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 200,
+                    "height": 92
+                },
+                {
+                    "type": "Text",
+                    "id": "4641c4a9-db68-4b93-b18c-95229dd1c2e1",
+                    "label": "tf_01",
+                    "scope": "CLASS",
+                    "components": [],
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "ABC",
+                    "fontFamily": "Arial",
+                    "fontSize": "40px",
+                    "color": "#323059ff"
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "389bfea1-36d6-4bc9-ab8c-1fc313a02b18",
+                    "label": "hitArea",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 2,
+                    "width": 200,
+                    "height": 100
+                },
+                {
+                    "type": "Image",
+                    "id": "823a03e2-6706-4bfd-b4dc-caa235f35839",
+                    "label": "mark_no",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "components_01",
+                        "frame": "mark_no"
+                    },
+                    "x": 88,
+                    "y": 39
+                },
+                {
+                    "type": "Image",
+                    "id": "0f5940a6-71c5-4486-984f-e679069b16dd",
+                    "label": "mark_yes",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "components_01",
+                        "frame": "mark_yes"
+                    },
+                    "x": 87,
+                    "y": 38
+                },
+                {
+                    "type": "Image",
+                    "id": "a33af886-6203-4e2a-9508-de23efde9a04",
+                    "label": "mark_lock",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "components_01",
+                        "frame": "mark_lock"
+                    },
+                    "x": -91,
+                    "y": 39
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "cardText",
+            "label": "Text",
+            "tooltip": "Text",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "textColor",
+            "label": "Text Color",
+            "tooltip": "Text Color",
+            "defValue": "0x0095cb",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "bgColor",
+            "label": "Background Color",
+            "tooltip": "Background Color",
+            "defValue": "0xb7e089",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "id": "a83f90d6-f183-420d-b554-5d4f56176ae7",
+    "sceneType": "PREFAB",
+    "settings": {
+        "generateAwakeHandler": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 200,
+        "borderHeight": 220
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "ed5827f0-5538-4b7c-9512-3fa8ccb1b06c",
+            "label": "container_1",
+            "components": [],
+            "x": 100,
+            "y": 110,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "f09056bb-610a-4c8b-8284-bf30a0ede9dc",
+                    "label": "giude_bg_01",
+                    "components": [],
+                    "texture": {
+                        "key": "giude_bg_01"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "f89af0ee-a6af-4c2d-9366-bd6450f25bdc",
+                    "label": "guide_frame",
+                    "components": [],
+                    "texture": {
+                        "key": "guide_frame"
+                    }
+                },
+                {
+                    "type": "Sprite",
+                    "id": "374a9528-1e97-4405-8814-43033a2ade55",
+                    "label": "guide_01",
+                    "scope": "CLASS",
+                    "components": [
+                        "StartAnimation"
+                    ],
+                    "StartAnimation.animationKey": "anim_idle",
+                    "texture": {
+                        "key": "kvitek",
+                        "frame": "ano_0000"
+                    }
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

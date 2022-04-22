@@ -1,0 +1,73 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/003/duha 01.png",
+                "type": "image",
+                "key": "duha 01"
+            },
+            {
+                "url": "assets/images/003/Eva hraje na ktaru.png",
+                "type": "image",
+                "key": "Eva hraje na ktaru"
+            },
+            {
+                "url": "assets/images/003/hihlik a dederon.png",
+                "type": "image",
+                "key": "hihlik a dederon"
+            },
+            {
+                "url": "assets/images/003/jaderna elektrarna Dukovany.png",
+                "type": "image",
+                "key": "jaderna elektrarna Dukovany"
+            },
+            {
+                "url": "assets/images/003/jezek spi.png",
+                "type": "image",
+                "key": "jezek spi"
+            },
+            {
+                "url": "assets/images/003/slunce_01.png",
+                "type": "image",
+                "key": "slunce_01"
+            },
+            {
+                "url": "assets/images/003/snehulaci tanci.png",
+                "type": "image",
+                "key": "snehulaci tanci"
+            },
+            {
+                "url": "assets/images/003/tulipany zlute.png",
+                "type": "image",
+                "key": "tulipany zlute"
+            },
+            {
+                "url": "assets/images/003/Učitelka.png",
+                "type": "image",
+                "key": "Učitelka"
+            },
+            {
+                "url": "assets/images/003/Učitelka_celál.png",
+                "type": "image",
+                "key": "Učitelka_celál"
+            },
+            {
+                "url": "assets/images/003/vcely na plastvi.png",
+                "type": "image",
+                "key": "vcely na plastvi"
+            },
+            {
+                "url": "assets/images/003/vetrnik cukrovi.png",
+                "type": "image",
+                "key": "vetrnik cukrovi"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

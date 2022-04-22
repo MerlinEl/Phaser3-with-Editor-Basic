@@ -1,0 +1,125 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/009/giude_bg_01.png",
+                "type": "image",
+                "key": "giude_bg_01"
+            },
+            {
+                "url": "assets/images/009/guide_frame.png",
+                "type": "image",
+                "key": "guide_frame"
+            },
+            {
+                "url": [
+                    "src/prefabs/009_level/Guide_Kvitek_001.js"
+                ],
+                "type": "scripts",
+                "key": "Guide_Kvitek_001"
+            },
+            {
+                "url": "assets/animations/guide-kvitek-animations.json",
+                "type": "animation",
+                "key": "guide-kvitek-animations"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/atlas/kvitek.json",
+                "path": "assets/atlas",
+                "key": "kvitek"
+            },
+            {
+                "url": [
+                    "assets/audio/bonus.mp3"
+                ],
+                "type": "audio",
+                "key": "snd_bonus"
+            },
+            {
+                "url": [
+                    "assets/audio/hura.mp3"
+                ],
+                "type": "audio",
+                "key": "snd_done"
+            },
+            {
+                "url": [
+                    "assets/audio/oprava.mp3"
+                ],
+                "type": "audio",
+                "key": "snd_fixed"
+            },
+            {
+                "url": [
+                    "assets/audio/ahoj.mp3"
+                ],
+                "type": "audio",
+                "key": "snd_hello"
+            },
+            {
+                "url": [
+                    "assets/audio/toing.mp3"
+                ],
+                "type": "audio",
+                "key": "snd_no"
+            },
+            {
+                "url": [
+                    "assets/audio/nene_a.mp3"
+                ],
+                "type": "audio",
+                "key": "snd_no_a"
+            },
+            {
+                "url": [
+                    "assets/audio/nene_b.mp3"
+                ],
+                "type": "audio",
+                "key": "snd_no_b"
+            },
+            {
+                "url": [
+                    "assets/audio/nene_c.mp3"
+                ],
+                "type": "audio",
+                "key": "snd_no_c"
+            },
+            {
+                "url": [
+                    "assets/audio/cililing.mp3"
+                ],
+                "type": "audio",
+                "key": "snd_yes"
+            },
+            {
+                "url": [
+                    "assets/audio/ano_a.mp3"
+                ],
+                "type": "audio",
+                "key": "snd_yes_a"
+            },
+            {
+                "url": [
+                    "assets/audio/ano_b.mp3"
+                ],
+                "type": "audio",
+                "key": "snd_yes_b"
+            },
+            {
+                "url": [
+                    "assets/audio/ano_c.mp3"
+                ],
+                "type": "audio",
+                "key": "snd_yes_c"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

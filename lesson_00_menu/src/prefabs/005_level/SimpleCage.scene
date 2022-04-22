@@ -1,0 +1,88 @@
+{
+    "id": "7a01b003-995f-44f9-a466-aee3e05f8d67",
+    "sceneType": "PREFAB",
+    "settings": {
+        "generateAwakeHandler": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 200,
+        "borderHeight": 100
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "37287cd0-690c-4e57-b3af-2db6e294e1c5",
+            "label": "container_1",
+            "components": [],
+            "x": 100,
+            "y": 50,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "0840a413-97ac-4947-8cf4-798ac3c4210e",
+                    "label": "bg_skin_01",
+                    "scope": "CLASS",
+                    "components": [],
+                    "isFilled": true,
+                    "width": 190,
+                    "height": 90
+                },
+                {
+                    "type": "NinePatch",
+                    "id": "7388d6d6-c52c-4d4d-a21c-835018107267",
+                    "label": "fg_skin_01",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "cage_01"
+                    },
+                    "x": -100,
+                    "y": -50,
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 200,
+                    "height": 100
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "900d61e1-109a-4fca-bf27-38719c88325b",
+                    "label": "hitArea",
+                    "scope": "CLASS",
+                    "components": [],
+                    "width": 200,
+                    "height": 100
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "fgColor",
+            "label": "Border Color",
+            "tooltip": "Border Color",
+            "defValue": "0xf9f8cf",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "bgColor",
+            "label": "Background Color",
+            "tooltip": "Background Color",
+            "defValue": "0xb7e089",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

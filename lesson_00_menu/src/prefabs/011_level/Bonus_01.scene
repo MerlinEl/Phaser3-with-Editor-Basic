@@ -1,0 +1,75 @@
+{
+    "id": "800c8a0c-e5f0-4f7e-b772-404778f29b15",
+    "sceneType": "PREFAB",
+    "settings": {
+        "generateAwakeHandler": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 350,
+        "borderHeight": 250
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "afdc0b71-1726-4698-8f36-efbe00304d63",
+            "label": "container_1",
+            "components": [],
+            "x": 175,
+            "y": 125,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "a2aaa486-0f57-42fa-9ad3-8a5670e21236",
+                    "label": "wing_left_01",
+                    "scope": "CLASS",
+                    "components": [
+                        "ComponentBase"
+                    ],
+                    "ComponentBase.instanceName": "left_wing_01",
+                    "texture": {
+                        "key": "bonus_02"
+                    },
+                    "x": -12,
+                    "y": 11,
+                    "originX": 1
+                },
+                {
+                    "type": "Image",
+                    "id": "43e5daef-8420-4744-90f2-f9fa889b8db6",
+                    "label": "torso_01",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "bonus_01"
+                    },
+                    "y": -19
+                },
+                {
+                    "type": "Image",
+                    "id": "fec2dfc6-8ec3-4310-9d17-48e449f30eb5",
+                    "label": "wing_right_01",
+                    "scope": "CLASS",
+                    "components": [
+                        "ComponentBase"
+                    ],
+                    "ComponentBase.instanceName": "right_wing_01",
+                    "texture": {
+                        "key": "bonus_02"
+                    },
+                    "x": 13,
+                    "y": 11,
+                    "scaleX": -1,
+                    "originX": 1
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

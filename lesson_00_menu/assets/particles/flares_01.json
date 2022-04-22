@@ -1,0 +1,52 @@
+{"frames": {
+
+"blue":
+{
+	"frame": {"x":1,"y":1,"w":126,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":126,"h":126},
+	"sourceSize": {"w":128,"h":128}
+},
+"green":
+{
+	"frame": {"x":129,"y":1,"w":126,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":126,"h":126},
+	"sourceSize": {"w":128,"h":128}
+},
+"red":
+{
+	"frame": {"x":257,"y":1,"w":126,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":126,"h":126},
+	"sourceSize": {"w":128,"h":128}
+},
+"white":
+{
+	"frame": {"x":385,"y":1,"w":126,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":126,"h":126},
+	"sourceSize": {"w":128,"h":128}
+},
+"yellow":
+{
+	"frame": {"x":513,"y":1,"w":126,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":126,"h":126},
+	"sourceSize": {"w":128,"h":128}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "flares_01.png",
+	"format": "RGBA8888",
+	"size": {"w":640,"h":128},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3aaea7a5af7bf3e06fd2b9cde53a2b09:624cdb71032ca1add46c3dc1c944d3cb:9ee386dd53f436fe1765c1d2d7900e81$"
+}
+}

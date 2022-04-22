@@ -1,0 +1,33 @@
+//Source
+//https://github.com/ernest4/phaser3-shew-sprite-shader
+
+The shader itself just provides the skew, to fake shadows you'll need to something like this:
+
+
+export default class Test extends Phaser.Scene {
+  create() {
+    this.renderer.pipelines.add("skewQuad", new SkewQuad(this.game));
+
+    // NOTE: there's perf penalty to using containers. So in your own implementation might be better to manually track
+    // position of shadow sprite perhaps?
+    let spriteContainer = this.add.container(0, 0);
+
+    let sprite = this.add.sprite(0, 0, "yourSpriteKey");
+
+    let spriteShadow = this.add.sprite(0, 0, "yourSpriteKey"); // shadow is made from the same sprite that casts it
+    let scaleY = 0.4;
+    spriteShadow.y = spriteShadow.y + (spriteShadow.height * (1 - scaleY)) / 2;
+    spriteShadow.scaleY = scaleY;
+    spriteShadow.tint = 0x000000;
+    spriteShadow.alpha = 0.5;
+    spriteShadow.setPipeline("skewQuad");
+    spriteShadow.pipeline.set1f("inHorizontalSkew", 0.2); // set the desired left/right skew factor
+    
+    // NOTE: add order important!! depth sorting does not work within container, so items are drawn
+    // in order they are added. Thus shadow needs to be added first.
+    // HOWEVER: you can use container methods like bringToTop(child), bringToBack(child)... etc.
+    // to move container children depth after they have been added too.
+    spriteContainer.add(spriteShadow);
+    spriteContainer.add(sprite);
+  }
+};

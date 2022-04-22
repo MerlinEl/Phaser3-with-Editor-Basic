@@ -1,0 +1,1770 @@
+{
+    "anims": [
+        {
+            "key": "anim_good",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0028",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0029",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0030",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0031",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0032",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0033",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0034",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0035",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0036",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0037",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0038",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0039",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0040",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "ano_0041",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "anim_bonus",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0028",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0029",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0030",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0031",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0032",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0033",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0034",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0035",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0036",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0037",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0038",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0039",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0040",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0041",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0042",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0043",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0044",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0045",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0046",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0047",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0048",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0049",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0050",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0051",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0052",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0053",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0054",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0055",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0056",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0057",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0058",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0059",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0060",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0061",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0062",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0063",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0064",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0065",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0066",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0067",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0068",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0069",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0070",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0071",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0072",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0073",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0074",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0075",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0076",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0077",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0078",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0079",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0080",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0081",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0082",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0083",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0084",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0085",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0086",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0087",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0088",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0089",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0090",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0091",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0092",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0093",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0094",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0095",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0096",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0097",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0098",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0099",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "bonus_0100",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "anim_done",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0028",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0029",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0030",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0031",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0032",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0033",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0034",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0035",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0036",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0037",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0038",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0039",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0040",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0041",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0042",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0043",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0044",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0045",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0046",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0047",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0048",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0049",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "hura_0050",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "anim_bad",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0028",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0029",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "nene_0030",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "anim_idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0009",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0010",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0011",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0012",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0013",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0014",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0015",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0016",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0017",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0018",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0019",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0020",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0021",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0022",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0023",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0024",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0025",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0026",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0027",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0028",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0029",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0030",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0031",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0032",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0033",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0034",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0035",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0036",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0037",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0038",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0039",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0040",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0041",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0042",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0043",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0044",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0045",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0046",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0047",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0048",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0049",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0050",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0051",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0052",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0053",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0054",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0055",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0056",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0057",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0058",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0059",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "kvitek",
+                    "frame": "wait_0060",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

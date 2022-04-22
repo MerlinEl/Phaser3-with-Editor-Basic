@@ -1,0 +1,48 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/guapen.png",
+                "type": "image",
+                "key": "guapen"
+            },
+            {
+                "atlasURL": "assets/atlas/loader_atlas.json",
+                "textureURL": "assets/atlas/loader_atlas.png",
+                "type": "atlas",
+                "key": "loader_atlas"
+            },
+            {
+                "url": "assets/animations/loader-animations.json",
+                "type": "animation",
+                "key": "loader-animations"
+            },
+            {
+                "url": [
+                    "src/components/PreloadText.js"
+                ],
+                "type": "scripts",
+                "key": "PreloadText"
+            },
+            {
+                "url": "assets/images/rexrainbow.png",
+                "type": "image",
+                "key": "rexrainbow"
+            },
+            {
+                "url": [
+                    "src/components/StartAnimation.js"
+                ],
+                "type": "scripts",
+                "key": "StartAnimation"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

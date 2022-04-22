@@ -1,0 +1,689 @@
+{
+    "id": "7520bdf6-3c0b-42c9-870e-383c89b2d6c7",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadMethodName": "editorPreload",
+        "preloadPackFiles": [
+            "lesson_00_menu/assets/level-003-asset-pack.json"
+        ],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level_003",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "Ellipse",
+            "id": "e7ae2ed7-5c9a-4a52-baac-b69d69e92d51",
+            "label": "ellipse_2",
+            "components": [],
+            "x": 40,
+            "y": 133,
+            "isFilled": true,
+            "fillColor": "#6830ad",
+            "strokeColor": "#aa7edf",
+            "isStroked": true,
+            "width": 30,
+            "height": 30
+        },
+        {
+            "type": "Layer",
+            "id": "766f48c3-c6fa-45fb-8277-162fd351be2d",
+            "label": "layer_title",
+            "components": [],
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "e29635fe-df60-42a6-ab31-ea4fe75969c3",
+            "label": "linear_gradient_01_1",
+            "components": [],
+            "texture": {
+                "key": "linear_gradient_01"
+            },
+            "x": 68,
+            "y": 119,
+            "scaleX": 9.561243871939784,
+            "scaleY": 0.31278082529123086,
+            "originX": 0,
+            "originY": 0,
+            "alphaTopRight": 0,
+            "alphaBottomRight": 0,
+            "tintTopLeft": "#3a87f0",
+            "tintTopRight": "#3a87f0",
+            "tintBottomLeft": "#c83af0",
+            "tintBottomRight": "#c83af0"
+        },
+        {
+            "type": "Rectangle",
+            "id": "f7395306-8a65-4247-92fe-c6dc84880ae2",
+            "label": "rectangle",
+            "components": [],
+            "originX": 0,
+            "originY": 0,
+            "strokeColor": "#d3b9f2",
+            "lineWidth": 3,
+            "isStroked": true,
+            "width": 1024,
+            "height": 768
+        },
+        {
+            "type": "Text",
+            "id": "30f3b269-3294-4f7a-8c78-711a4c855b45",
+            "label": "text_1_1",
+            "components": [
+                "NavigateToScene"
+            ],
+            "NavigateToScene.hitAreaScaleY": 1.5,
+            "x": 75,
+            "y": 134,
+            "originY": 0.5,
+            "text": "Menu",
+            "fontFamily": "Arial",
+            "fontSize": "22px",
+            "color": "#f5dbf5ff",
+            "stroke": "#8b8cb2",
+            "strokeThickness": 1,
+            "shadow.offsetX": 2,
+            "shadow.offsetY": 2,
+            "shadow.fill": true,
+            "shadow.color": "#1d5970ff"
+        },
+        {
+            "type": "Text",
+            "id": "1ff0109d-8b6b-4a7c-a299-0fcfb0c66083",
+            "label": "text_1_1_1_1",
+            "components": [],
+            "x": 39,
+            "y": 133,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "0",
+            "fontFamily": "Arial",
+            "fontSize": "22px",
+            "color": "#aa7edf",
+            "stroke": "#8b8cb2",
+            "strokeThickness": 1,
+            "shadow.offsetX": 2,
+            "shadow.offsetY": 2,
+            "shadow.fill": true,
+            "shadow.color": "#1d5970ff"
+        },
+        {
+            "type": "Layer",
+            "id": "a8e6c895-a9f0-43db-b9a3-7b30fd5b7d43",
+            "label": "layer_top_buttons",
+            "components": [],
+            "list": []
+        },
+        {
+            "type": "Layer",
+            "id": "3ac48108-8f49-4d0c-a08d-55f95b304736",
+            "label": "layer_bottom_bar",
+            "components": [],
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "54ece784-9043-4bd5-b7d9-3b3505cbaad3",
+                    "label": "ellipse_1_1_1",
+                    "components": [],
+                    "x": 19,
+                    "y": 762,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "82c22cda-f94c-464a-a8ae-fc9d6c0b7d1e",
+                    "label": "ellipse_1_1",
+                    "components": [],
+                    "x": 1000,
+                    "y": 762,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "b1d1d722-0b90-4086-9b01-d6ab2e1a97d1",
+            "label": "layer_top_bar",
+            "components": [],
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "6d23d226-37d3-4a66-a04e-c8cb25f22704",
+                    "label": "ellipse",
+                    "components": [],
+                    "x": 19,
+                    "y": 21,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "54741b09-6390-4f60-9eac-250874b8ca00",
+                    "label": "ellipse_1",
+                    "components": [],
+                    "x": 1000,
+                    "y": 21,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "f55019da-2feb-43f8-8193-b54478bce1d2",
+                    "label": "guapen",
+                    "components": [
+                        "NavigateToURL"
+                    ],
+                    "NavigateToURL.urlPath": "https://github.com/PhaserEditor2D",
+                    "NavigateToURL.hitAreaScaleX": 1.5,
+                    "NavigateToURL.hitAreaScaleY": 1.5,
+                    "texture": {
+                        "key": "guapen"
+                    },
+                    "x": 990,
+                    "y": 39,
+                    "scaleX": 0.2,
+                    "scaleY": 0.2
+                },
+                {
+                    "type": "Image",
+                    "id": "402111be-93f9-4bca-a937-24e2cc67c3af",
+                    "label": "dino",
+                    "components": [
+                        "NavigateToURL"
+                    ],
+                    "NavigateToURL.folderName": "",
+                    "NavigateToURL.urlPath": "https://phasereditor2d.com",
+                    "texture": {
+                        "key": "dino"
+                    },
+                    "x": 39,
+                    "y": 39,
+                    "scaleX": 0.27351126855200214,
+                    "scaleY": 0.27351126855200214
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "ab989674-2331-4263-bbd2-488b42c9f88c",
+                    "label": "ellipse_3",
+                    "components": [],
+                    "x": 512,
+                    "y": 66,
+                    "scaleX": 3.574798860543812,
+                    "scaleY": 0.48050780880489197,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Text",
+                    "id": "6dd29c94-62a8-4b73-93dc-36ddf37a3f97",
+                    "label": "text_1_1_1_1_1",
+                    "components": [],
+                    "x": 512,
+                    "y": 78,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Loading Images - Preloader",
+                    "fontFamily": "Arial",
+                    "fontSize": "22px",
+                    "color": "#f5dbf5ff",
+                    "stroke": "#8b8cb2",
+                    "strokeThickness": 1,
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.fill": true,
+                    "shadow.color": "#1d5970ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "5ef763d9-c088-4a3a-a61f-23b97d1a6eaa",
+                    "label": "linear_gradient_01_2",
+                    "components": [],
+                    "texture": {
+                        "key": "linear_gradient_01"
+                    },
+                    "x": 512,
+                    "y": 33,
+                    "scaleX": -4,
+                    "scaleY": 0.2618162344206787,
+                    "originX": 0,
+                    "originY": 0,
+                    "alphaTopRight": 0,
+                    "alphaBottomRight": 0,
+                    "tintTopLeft": "#3093f6",
+                    "tintTopRight": "#3093f6",
+                    "tintBottomLeft": "#c83af0",
+                    "tintBottomRight": "#c83af0"
+                },
+                {
+                    "type": "Image",
+                    "id": "6b1f40a6-3f1c-4ee4-a5f6-e725b90a873a",
+                    "label": "linear_gradient_01",
+                    "components": [],
+                    "texture": {
+                        "key": "linear_gradient_01"
+                    },
+                    "x": 512,
+                    "y": 33,
+                    "scaleX": 4,
+                    "scaleY": 0.2618162344206787,
+                    "originX": 0,
+                    "originY": 0,
+                    "alphaTopRight": 0,
+                    "alphaBottomRight": 0,
+                    "tintTopLeft": "#3093f6",
+                    "tintTopRight": "#3093f6",
+                    "tintBottomLeft": "#c83af0",
+                    "tintBottomRight": "#c83af0"
+                },
+                {
+                    "type": "Text",
+                    "id": "7b2f0cd7-d618-496c-8621-a11573c8eaea",
+                    "label": "text_title",
+                    "components": [],
+                    "x": 512,
+                    "y": 46,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Phaser 3 - HTML5",
+                    "fontFamily": "vijaya_cz",
+                    "fontSize": "40px",
+                    "color": "#f5dbf5ff",
+                    "stroke": "#8b8cb2",
+                    "strokeThickness": 1,
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.fill": true,
+                    "shadow.color": "#5e41a2ff"
+                },
+                {
+                    "type": "RoundedRectangle",
+                    "id": "be42df5d-de86-4805-bd20-dbd8de880cfe",
+                    "label": "roundedrectangle",
+                    "components": [],
+                    "x": 959,
+                    "y": 123,
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 50,
+                    "height": 250,
+                    "radius": 20,
+                    "radiusTL": 20,
+                    "radiusTR": 20,
+                    "radiusBL": 20,
+                    "radiusBR": 20,
+                    "fillColor": "#6830ad",
+                    "isStroked": true,
+                    "strokeColor": "#aa7edf",
+                    "shadowAlpha": 0
+                },
+                {
+                    "prefabId": "cd7f52ab-9c14-4e9b-a8ce-38abfefedc20",
+                    "id": "74947e9b-bb88-4f17-9072-bbfd91bec70b",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnGitHub",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_github_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "Button",
+                    "x": 984,
+                    "y": 339,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "fda9c326-7276-4db3-b72a-cea60406943c",
+                    "id": "205e329a-16c9-4485-9e92-d4742c903e28",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnRefreshPage",
+                    "scope": "CLASS",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_reload_page_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "Button",
+                    "x": 984,
+                    "y": 219,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "ea2929bc-a65f-4039-9b69-5cb251333f73",
+                    "id": "9a57da2a-29a9-455e-8ac4-51316a2985b3",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnFullScreen",
+                    "scope": "CLASS",
+                    "components": [
+                        "ComponentBase",
+                        "SwitchButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_fullscreen_switch_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "SwitchButton",
+                    "x": 984,
+                    "y": 159,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "edfb58ce-0c27-45c0-a8cd-57193467122b",
+                    "id": "329b0c0d-1b55-4465-ab29-694d7ae39140",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnHome",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_home_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "SwitchButton",
+                    "x": 984,
+                    "y": 279,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "5328093f-c23f-4954-b033-f8a31eeacde8",
+            "label": "layer_images_01",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "c296e132-7cfb-4926-ada8-fcd16791c8c5",
+                    "label": "slunce_01",
+                    "components": [],
+                    "texture": {
+                        "key": "slunce_01"
+                    },
+                    "x": 136,
+                    "y": 223,
+                    "scaleX": 0.3733464808268985,
+                    "scaleY": 0.3733464808268985
+                },
+                {
+                    "type": "Image",
+                    "id": "68302976-9847-4177-b746-696618d65d55",
+                    "label": "duha_01",
+                    "components": [],
+                    "texture": {
+                        "key": "duha 01"
+                    },
+                    "x": 337,
+                    "y": 340
+                },
+                {
+                    "type": "Image",
+                    "id": "11da81ec-3bd9-4931-a65e-e8bfb79faf60",
+                    "label": "hihlik_a_dederon",
+                    "components": [],
+                    "texture": {
+                        "key": "hihlik a dederon"
+                    },
+                    "x": 686,
+                    "y": 441,
+                    "scaleX": 0.24298187483987924,
+                    "scaleY": 0.24298187483987924,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "43474d04-7422-4e37-a5ff-526777b9cd32",
+                    "label": "u_itelka_cel_l",
+                    "components": [],
+                    "texture": {
+                        "key": "Učitelka_celál"
+                    },
+                    "x": 557,
+                    "y": 449
+                },
+                {
+                    "type": "Image",
+                    "id": "8c0440b7-a89d-46bb-b127-8384482c0cae",
+                    "label": "vcely_na_plastvi",
+                    "components": [],
+                    "texture": {
+                        "key": "vcely na plastvi"
+                    },
+                    "x": 686,
+                    "y": 133,
+                    "scaleX": 0.24280360254299618,
+                    "scaleY": 0.24280360254299618,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "2299910b-61e6-4fd0-a85c-94033a4ac125",
+                    "label": "vetrnik_cukrovi",
+                    "components": [],
+                    "texture": {
+                        "key": "vetrnik cukrovi"
+                    },
+                    "x": 936,
+                    "y": 203,
+                    "scaleX": 0.14520000643925923,
+                    "scaleY": 0.14520000643925923
+                },
+                {
+                    "type": "Image",
+                    "id": "ce7e9aee-50e9-4075-8911-f966257a8b11",
+                    "label": "tulipany_zlute",
+                    "components": [],
+                    "texture": {
+                        "key": "tulipany zlute"
+                    },
+                    "x": 627,
+                    "y": 667,
+                    "scaleX": 0.21512861092017868,
+                    "scaleY": 0.21512861092017868
+                },
+                {
+                    "type": "Image",
+                    "id": "4de2ded8-7278-4cd5-ba91-d27fff59ca91",
+                    "label": "jezek_spi",
+                    "components": [],
+                    "texture": {
+                        "key": "jezek spi"
+                    },
+                    "x": 686,
+                    "y": 278,
+                    "scaleX": 0.2552494465955001,
+                    "scaleY": 0.2552494465955001,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "efb71fc1-4b13-4cc1-ac5c-d00cb9e72808",
+                    "label": "snehulaci_tanci",
+                    "components": [],
+                    "texture": {
+                        "key": "snehulaci tanci"
+                    },
+                    "x": 686,
+                    "y": 587,
+                    "scaleX": 0.2578152059082043,
+                    "scaleY": 0.2578152059082043,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "627f3be8-4c24-43ce-bc2f-db7ef004231d",
+                    "label": "rectangle_1",
+                    "components": [],
+                    "x": 685,
+                    "y": 132,
+                    "originX": 0,
+                    "originY": 0,
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 196,
+                    "height": 136
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "23646271-b5d5-4716-a01a-79ac12643fed",
+                    "label": "rectangle_1_1",
+                    "components": [],
+                    "x": 685,
+                    "y": 279,
+                    "originX": 0,
+                    "originY": 0,
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 196,
+                    "height": 153
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "5e8430ea-942a-4a5f-8ebd-c106baaaa95e",
+                    "label": "rectangle_1_1_1",
+                    "components": [],
+                    "x": 686,
+                    "y": 440,
+                    "originX": 0,
+                    "originY": 0,
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 196,
+                    "height": 136
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "ff3d9c26-b2a2-46b9-8d2a-c7e12e2935ba",
+                    "label": "rectangle_1_1_1_1",
+                    "components": [],
+                    "x": 685,
+                    "y": 586,
+                    "originX": 0,
+                    "originY": 0,
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 196,
+                    "height": 155
+                },
+                {
+                    "type": "Image",
+                    "id": "6d402885-7f97-4b5c-b45f-b8d7914d8c1d",
+                    "label": "jaderna_elektrarna_Dukovany",
+                    "components": [],
+                    "texture": {
+                        "key": "jaderna elektrarna Dukovany"
+                    },
+                    "x": 232,
+                    "y": 645,
+                    "scaleX": 0.416441997803483,
+                    "scaleY": 0.416441997803483
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "072b74ff-8b9a-4e32-85bd-0fe12cd19aac",
+                    "label": "rectangle_1_1_1_1_1",
+                    "components": [],
+                    "x": 66,
+                    "y": 540,
+                    "originX": 0,
+                    "originY": 0,
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 333,
+                    "height": 210
+                },
+                {
+                    "type": "Image",
+                    "id": "5707e777-b356-43f4-90b8-8268a974addc",
+                    "label": "eva_hraje_na_ktaru",
+                    "components": [],
+                    "texture": {
+                        "key": "Eva hraje na ktaru"
+                    },
+                    "x": 98,
+                    "y": 476,
+                    "scaleX": 0.27855244173390176,
+                    "scaleY": 0.27855244173390176
+                },
+                {
+                    "type": "Image",
+                    "id": "6ac2f9a1-b2b0-4101-bef8-524f2c47952b",
+                    "label": "u_itelka",
+                    "components": [],
+                    "texture": {
+                        "key": "Učitelka"
+                    },
+                    "x": 362,
+                    "y": 573,
+                    "scaleX": 0.7190226006377805,
+                    "scaleY": 0.7190226006377805
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

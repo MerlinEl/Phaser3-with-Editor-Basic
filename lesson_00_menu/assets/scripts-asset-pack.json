@@ -1,0 +1,122 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "lib/orien/AudioManager.js",
+                "type": "script",
+                "key": "AudioManager"
+            },
+            {
+                "url": "lib/orien/Collection.js",
+                "type": "script",
+                "key": "Collection"
+            },
+            {
+                "url": "lib/orien/ColorPalette.js",
+                "type": "script",
+                "key": "ColorPalette"
+            },
+            {
+                "url": "lib/orien/Ctrace.js",
+                "type": "script",
+                "key": "Ctrace"
+            },
+            {
+                "url": [
+                    "lib/scripts/datgui.js"
+                ],
+                "type": "scripts",
+                "key": "datgui"
+            },
+            {
+                "url": "lib/orien/DebugSettings.js",
+                "type": "script",
+                "key": "DebugSettings"
+            },
+            {
+                "url": "lib/orien/FileManager.js",
+                "type": "script",
+                "key": "FileManager"
+            },
+            {
+                "url": "lib/orien/effects/Fireworks.js",
+                "type": "script",
+                "key": "Fireworks"
+            },
+            {
+                "url": "lib/orien/effects/FocusFlare.js",
+                "type": "script",
+                "key": "FocusFlare"
+            },
+            {
+                "url": "lib/orien/GoManager.js",
+                "type": "script",
+                "key": "GoManager"
+            },
+            {
+                "url": "lib/orien/InteractiveSpline.js",
+                "type": "script",
+                "key": "InteractiveSpline"
+            },
+            {
+                "url": [
+                    "lib/orien/LessonRulesEditor.js"
+                ],
+                "type": "scripts",
+                "key": "LessonRulesEditor"
+            },
+            {
+                "url": "lib/orien/McArray.js",
+                "type": "script",
+                "key": "McArray"
+            },
+            {
+                "url": "lib/orien/McMath.js",
+                "type": "script",
+                "key": "McMath"
+            },
+            {
+                "url": "lib/orien/McString.js",
+                "type": "script",
+                "key": "McString"
+            },
+            {
+                "url": "lib/plugins/NinePatch.js",
+                "type": "script",
+                "key": "NinePatch"
+            },
+            {
+                "url": "lib/orien/test/PointSpline_01.js",
+                "type": "script",
+                "key": "PointSpline_01"
+            },
+            {
+                "url": "lib/plugins/RoundedRectangle.js",
+                "type": "script",
+                "key": "RoundedRectangle"
+            },
+            {
+                "url": "lib/orien/SceneManager.js",
+                "type": "script",
+                "key": "SceneManager"
+            },
+            {
+                "url": "lib/orien/Tweener.js",
+                "type": "script",
+                "key": "Tweener"
+            },
+            {
+                "url": "lib/orien/WebManager.js",
+                "type": "script",
+                "key": "WebManager"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

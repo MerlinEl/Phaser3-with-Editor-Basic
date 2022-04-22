@@ -1,0 +1,688 @@
+{
+    "id": "165dd4cc-5b76-4ed4-aebc-444e0696ef96",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level_004",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "Ellipse",
+            "id": "e7ae2ed7-5c9a-4a52-baac-b69d69e92d51",
+            "label": "ellipse_2",
+            "components": [],
+            "x": 40,
+            "y": 133,
+            "isFilled": true,
+            "fillColor": "#6830ad",
+            "strokeColor": "#aa7edf",
+            "isStroked": true,
+            "width": 30,
+            "height": 30
+        },
+        {
+            "type": "Layer",
+            "id": "766f48c3-c6fa-45fb-8277-162fd351be2d",
+            "label": "layer_title",
+            "components": [],
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "e29635fe-df60-42a6-ab31-ea4fe75969c3",
+            "label": "linear_gradient_01_1",
+            "components": [],
+            "texture": {
+                "key": "linear_gradient_01"
+            },
+            "x": 68,
+            "y": 119,
+            "scaleX": 9.561243871939784,
+            "scaleY": 0.31278082529123086,
+            "originX": 0,
+            "originY": 0,
+            "alphaTopRight": 0,
+            "alphaBottomRight": 0,
+            "tintTopLeft": "#3a87f0",
+            "tintTopRight": "#3a87f0",
+            "tintBottomLeft": "#c83af0",
+            "tintBottomRight": "#c83af0"
+        },
+        {
+            "type": "Rectangle",
+            "id": "f7395306-8a65-4247-92fe-c6dc84880ae2",
+            "label": "rectangle",
+            "components": [],
+            "originX": 0,
+            "originY": 0,
+            "strokeColor": "#d3b9f2",
+            "lineWidth": 3,
+            "isStroked": true,
+            "width": 1024,
+            "height": 768
+        },
+        {
+            "type": "Text",
+            "id": "30f3b269-3294-4f7a-8c78-711a4c855b45",
+            "label": "text_1_1",
+            "components": [
+                "NavigateToScene"
+            ],
+            "NavigateToScene.hitAreaScaleY": 1.5,
+            "x": 75,
+            "y": 134,
+            "originY": 0.5,
+            "text": "Menu",
+            "fontFamily": "Arial",
+            "fontSize": "22px",
+            "color": "#f5dbf5ff",
+            "stroke": "#8b8cb2",
+            "strokeThickness": 1,
+            "shadow.offsetX": 2,
+            "shadow.offsetY": 2,
+            "shadow.fill": true,
+            "shadow.color": "#1d5970ff"
+        },
+        {
+            "type": "Text",
+            "id": "1ff0109d-8b6b-4a7c-a299-0fcfb0c66083",
+            "label": "text_1_1_1_1",
+            "components": [],
+            "x": 39,
+            "y": 133,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "0",
+            "fontFamily": "Arial",
+            "fontSize": "22px",
+            "color": "#aa7edf",
+            "stroke": "#8b8cb2",
+            "strokeThickness": 1,
+            "shadow.offsetX": 2,
+            "shadow.offsetY": 2,
+            "shadow.fill": true,
+            "shadow.color": "#1d5970ff"
+        },
+        {
+            "type": "Text",
+            "id": "dc21fffa-71bb-4e69-b643-a36731b9e8d8",
+            "label": "text",
+            "components": [],
+            "x": 39,
+            "y": 222,
+            "text": "DO"
+        },
+        {
+            "type": "Text",
+            "id": "2e969026-bc82-4cb8-9fbf-417256787e48",
+            "label": "text_1",
+            "components": [],
+            "x": 68,
+            "y": 517,
+            "text": "RE"
+        },
+        {
+            "type": "Text",
+            "id": "42c79d4a-55a6-48ec-8928-cb603bcd588d",
+            "label": "text_1_2",
+            "components": [],
+            "x": 329,
+            "y": 435,
+            "text": "MI"
+        },
+        {
+            "type": "Text",
+            "id": "29a49af0-162d-4e88-a8d5-68e46dd5f72b",
+            "label": "text_1_2_1",
+            "components": [],
+            "x": 689,
+            "y": 351,
+            "text": "FA"
+        },
+        {
+            "type": "Text",
+            "id": "5674e1f1-818f-4f27-9225-ab3a85f00d0a",
+            "label": "text_1_2_1_1",
+            "components": [],
+            "x": 875,
+            "y": 202,
+            "text": "SO"
+        },
+        {
+            "type": "Text",
+            "id": "9ca1d375-cf6a-4bb1-ac97-966858ec3b29",
+            "label": "text_1_2_1_1_1",
+            "components": [],
+            "x": 927,
+            "y": 306,
+            "text": "LA"
+        },
+        {
+            "type": "Text",
+            "id": "7d9226a0-137a-4f90-b578-6d762f37a4e8",
+            "label": "text_1_2_1_1_1_1",
+            "components": [],
+            "x": 868,
+            "y": 456,
+            "text": "SI"
+        },
+        {
+            "type": "Image",
+            "id": "847ec18f-f4df-4fdb-819f-dd0a3e726a08",
+            "label": "guapen_1_1",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "img_si",
+            "ClickButton.hitAreaScaleY": 1.6,
+            "ClickButton.actionName": "click-on-image",
+            "texture": {
+                "key": "guapen"
+            },
+            "x": 944,
+            "y": 495,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "e94a4c94-e5fd-4c9f-8c1e-eb1d946fb748",
+            "label": "guapen_1_1_1",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "img_mi",
+            "ClickButton.hitAreaScaleY": 1.5,
+            "ClickButton.actionName": "click-on-image",
+            "texture": {
+                "key": "guapen"
+            },
+            "x": 426,
+            "y": 525
+        },
+        {
+            "type": "Image",
+            "id": "04c7a695-3ba8-4f53-bc21-a1b4ff91604e",
+            "label": "guapen_1_1_1_1",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "img_do",
+            "ClickButton.actionName": "click-on-image",
+            "texture": {
+                "key": "guapen"
+            },
+            "x": 133,
+            "y": 315
+        },
+        {
+            "type": "Image",
+            "id": "80f00772-3683-4722-811d-1a810208af18",
+            "label": "guapen_1_1_1_2",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "img_re",
+            "ClickButton.hitAreaScaleX": 2,
+            "ClickButton.actionName": "click-on-image",
+            "texture": {
+                "key": "guapen"
+            },
+            "x": 79,
+            "y": 501,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "6e3d2146-4a9c-477c-b1a7-c7cc8bf29a66",
+            "label": "dino_1_1",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "img_fa",
+            "ClickButton.hitAreaScaleX": 2,
+            "ClickButton.hitAreaScaleY": 2,
+            "ClickButton.actionName": "click-on-image",
+            "texture": {
+                "key": "dino"
+            },
+            "x": 731,
+            "y": 416,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "b9e623ee-acd5-4e02-8319-5f8464a46f11",
+            "label": "guapen_1",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "img_la",
+            "ClickButton.hitAreaScaleX": 1.5,
+            "ClickButton.hitAreaScaleY": 1.5,
+            "ClickButton.actionName": "click-on-image",
+            "texture": {
+                "key": "guapen"
+            },
+            "x": 916,
+            "y": 349,
+            "scaleX": 0.2,
+            "scaleY": 0.2
+        },
+        {
+            "type": "Image",
+            "id": "991f16b3-5f25-411f-b264-f0170c7413d0",
+            "label": "dino_1",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "img_so",
+            "ClickButton.hitAreaScaleX": 2,
+            "ClickButton.hitAreaScaleY": 2,
+            "ClickButton.actionName": "click-on-image",
+            "texture": {
+                "key": "dino"
+            },
+            "x": 912.4852723802405,
+            "y": 236.7102230070672,
+            "scaleX": 0.2,
+            "scaleY": 0.2
+        },
+        {
+            "type": "Image",
+            "id": "f2bda38e-a07a-4c27-b108-874cba81576c",
+            "label": "dino_1_1_1",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "img_fa1",
+            "ClickButton.hitAreaScaleX": 1.2,
+            "ClickButton.hitAreaScaleY": 1.2,
+            "ClickButton.actionName": "click-on-image",
+            "texture": {
+                "key": "dino"
+            },
+            "x": 783,
+            "y": 131,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "originX": 1,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "113c5b13-b791-4cd6-8d06-968f7dd1f81e",
+            "label": "dino_1_1_1_1",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "img_fa2",
+            "ClickButton.hitAreaScaleX": 1.5,
+            "ClickButton.hitAreaScaleY": 1.5,
+            "ClickButton.actionName": "click-on-image",
+            "texture": {
+                "key": "dino"
+            },
+            "x": 665,
+            "y": 599,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Layer",
+            "id": "a8e6c895-a9f0-43db-b9a3-7b30fd5b7d43",
+            "label": "layer_top_buttons",
+            "components": [],
+            "list": []
+        },
+        {
+            "type": "Layer",
+            "id": "c6c6dbde-9012-420a-aef9-16e0f986f7ca",
+            "label": "layer_bottom_bar",
+            "components": [],
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "d05c93a4-3b19-4155-9a3e-b23ba0d5e49a",
+                    "label": "ellipse_1_1",
+                    "components": [],
+                    "x": 1000,
+                    "y": 762,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "feabebe0-cc22-4d62-8634-d98849665fd2",
+                    "label": "ellipse_1_1_1",
+                    "components": [],
+                    "x": 19,
+                    "y": 762,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "9905d5f1-ffa1-4580-ab7c-6a39153a3c67",
+            "label": "layer_top_bar",
+            "components": [],
+            "list": [
+                {
+                    "type": "Ellipse",
+                    "id": "188b763c-7141-4183-b063-e7fe60652b5e",
+                    "label": "ellipse",
+                    "components": [],
+                    "x": 19,
+                    "y": 21,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "736eb966-7184-4569-8f46-f17f08d67dde",
+                    "label": "ellipse_1",
+                    "components": [],
+                    "x": 1000,
+                    "y": 21,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Image",
+                    "id": "b4f70fee-b788-4c65-9bd2-ed55d4c754eb",
+                    "label": "guapen",
+                    "components": [
+                        "NavigateToURL"
+                    ],
+                    "NavigateToURL.urlPath": "https://github.com/PhaserEditor2D",
+                    "NavigateToURL.hitAreaScaleX": 1.5,
+                    "NavigateToURL.hitAreaScaleY": 1.5,
+                    "texture": {
+                        "key": "guapen"
+                    },
+                    "x": 990,
+                    "y": 39,
+                    "scaleX": 0.2,
+                    "scaleY": 0.2
+                },
+                {
+                    "type": "Image",
+                    "id": "ffb60c6a-02b5-4e2a-b95a-ce77297c05ad",
+                    "label": "dino",
+                    "components": [
+                        "NavigateToURL"
+                    ],
+                    "NavigateToURL.folderName": "",
+                    "NavigateToURL.urlPath": "https://phasereditor2d.com",
+                    "texture": {
+                        "key": "dino"
+                    },
+                    "x": 39,
+                    "y": 39,
+                    "scaleX": 0.27351126855200214,
+                    "scaleY": 0.27351126855200214
+                },
+                {
+                    "type": "Ellipse",
+                    "id": "8d125a81-aa78-48f3-831b-3dddeb8e53c5",
+                    "label": "ellipse_3",
+                    "components": [],
+                    "x": 512,
+                    "y": 66,
+                    "scaleX": 3.574798860543812,
+                    "scaleY": 0.48050780880489197,
+                    "isFilled": true,
+                    "fillColor": "#6830ad",
+                    "strokeColor": "#aa7edf",
+                    "isStroked": true,
+                    "width": 128,
+                    "height": 128
+                },
+                {
+                    "type": "Text",
+                    "id": "d4cd4d4f-d157-4c4a-bfb1-5160cc06fb21",
+                    "label": "text_1_1_1_1_1",
+                    "components": [],
+                    "x": 512,
+                    "y": 78,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Click - Touch - Hit Area",
+                    "fontFamily": "Arial",
+                    "fontSize": "22px",
+                    "color": "#f5dbf5ff",
+                    "stroke": "#8b8cb2",
+                    "strokeThickness": 1,
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.fill": true,
+                    "shadow.color": "#1d5970ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "f1c3a3a6-1a2b-42f5-bfe1-d048b28f8a9c",
+                    "label": "linear_gradient_01_2",
+                    "components": [],
+                    "texture": {
+                        "key": "linear_gradient_01"
+                    },
+                    "x": 512,
+                    "y": 33,
+                    "scaleX": -4,
+                    "scaleY": 0.2618162344206787,
+                    "originX": 0,
+                    "originY": 0,
+                    "alphaTopRight": 0,
+                    "alphaBottomRight": 0,
+                    "tintTopLeft": "#3093f6",
+                    "tintTopRight": "#3093f6",
+                    "tintBottomLeft": "#c83af0",
+                    "tintBottomRight": "#c83af0"
+                },
+                {
+                    "type": "Image",
+                    "id": "04d0506c-2b0d-4fbe-905b-4790871ec108",
+                    "label": "linear_gradient_01",
+                    "components": [],
+                    "texture": {
+                        "key": "linear_gradient_01"
+                    },
+                    "x": 512,
+                    "y": 33,
+                    "scaleX": 4,
+                    "scaleY": 0.2618162344206787,
+                    "originX": 0,
+                    "originY": 0,
+                    "alphaTopRight": 0,
+                    "alphaBottomRight": 0,
+                    "tintTopLeft": "#3093f6",
+                    "tintTopRight": "#3093f6",
+                    "tintBottomLeft": "#c83af0",
+                    "tintBottomRight": "#c83af0"
+                },
+                {
+                    "type": "Text",
+                    "id": "9852f6a2-5a15-4155-bae8-9b5c336619f2",
+                    "label": "text_title",
+                    "components": [],
+                    "x": 512,
+                    "y": 46,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Phaser 3 - HTML5",
+                    "fontFamily": "vijaya_cz",
+                    "fontSize": "40px",
+                    "color": "#f5dbf5ff",
+                    "stroke": "#8b8cb2",
+                    "strokeThickness": 1,
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 2,
+                    "shadow.fill": true,
+                    "shadow.color": "#5e41a2ff"
+                },
+                {
+                    "type": "RoundedRectangle",
+                    "id": "2ba32513-fd91-47ff-86b7-e291574a1dbb",
+                    "label": "roundedrectangle",
+                    "components": [],
+                    "x": 959,
+                    "y": 123,
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 50,
+                    "height": 250,
+                    "radius": 20,
+                    "radiusTL": 20,
+                    "radiusTR": 20,
+                    "radiusBL": 20,
+                    "radiusBR": 20,
+                    "fillColor": "#6830ad",
+                    "isStroked": true,
+                    "strokeColor": "#aa7edf",
+                    "shadowAlpha": 0
+                },
+                {
+                    "prefabId": "cd7f52ab-9c14-4e9b-a8ce-38abfefedc20",
+                    "id": "ee5cac1c-b3ab-4d80-8d1c-b50e0e8e79f0",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnGitHub",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_github_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "Button",
+                    "x": 984,
+                    "y": 339,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "fda9c326-7276-4db3-b72a-cea60406943c",
+                    "id": "4b5cae02-546c-4672-82da-08c9c15644cc",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnRefreshPage",
+                    "scope": "CLASS",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_reload_page_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "Button",
+                    "x": 984,
+                    "y": 219,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "ea2929bc-a65f-4039-9b69-5cb251333f73",
+                    "id": "457b9c61-9a8f-4631-8ac6-25107c46d97e",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnFullScreen",
+                    "scope": "CLASS",
+                    "components": [
+                        "ComponentBase",
+                        "SwitchButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_fullscreen_switch_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "SwitchButton",
+                    "x": 984,
+                    "y": 159,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                },
+                {
+                    "prefabId": "edfb58ce-0c27-45c0-a8cd-57193467122b",
+                    "id": "b93e8260-205c-47eb-a86d-61510c949251",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "btnHome",
+                    "components": [
+                        "ComponentBase",
+                        "ClickButton"
+                    ],
+                    "ComponentBase.instanceName": "btn_home_01",
+                    "ComponentBase.colorize": true,
+                    "ComponentBase.hexColor": "0xaa7edf",
+                    "ComponentBase.componentType": "SwitchButton",
+                    "x": 984,
+                    "y": 279,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "nestedPrefabs": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

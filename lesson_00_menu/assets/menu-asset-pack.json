@@ -1,0 +1,128 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": [
+                    "src/prefabs/000_menu/BtnDebugSwitch.js"
+                ],
+                "type": "scripts",
+                "key": "BtnDebugSwitch"
+            },
+            {
+                "url": [
+                    "src/prefabs/000_menu/BtnFullScreen.js"
+                ],
+                "type": "scripts",
+                "key": "BtnFullScreen"
+            },
+            {
+                "url": [
+                    "src/prefabs/000_menu/BtnGitHub.js"
+                ],
+                "type": "scripts",
+                "key": "BtnGitHub"
+            },
+            {
+                "url": [
+                    "src/prefabs/000_menu/BtnHome.js"
+                ],
+                "type": "scripts",
+                "key": "BtnHome"
+            },
+            {
+                "url": [
+                    "src/prefabs/000_menu/BtnRefreshPage.js"
+                ],
+                "type": "scripts",
+                "key": "BtnRefreshPage"
+            },
+            {
+                "url": "assets/images/menu/debug.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "debug"
+            },
+            {
+                "url": "assets/dino.png",
+                "type": "image",
+                "key": "dino"
+            },
+            {
+                "url": "assets/images/menu/fullscreen.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "fullscreen"
+            },
+            {
+                "url": "assets/images/menu/github.png",
+                "type": "image",
+                "key": "github"
+            },
+            {
+                "url": "assets/images/menu/home.png",
+                "type": "image",
+                "key": "home"
+            },
+            {
+                "url": "assets/masks/linear_gradient_01.png",
+                "type": "image",
+                "key": "linear_gradient_01"
+            },
+            {
+                "url": [
+                    "src/components/NavigateToScene.js"
+                ],
+                "type": "scripts",
+                "key": "NavigateToScene"
+            },
+            {
+                "url": [
+                    "src/components/NavigateToURL.js"
+                ],
+                "type": "scripts",
+                "key": "NavigateToURL"
+            },
+            {
+                "url": "assets/images/menu/restart.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "restart"
+            },
+            {
+                "url": [
+                    "src/prefabs/000_menu/StatusIcon.js"
+                ],
+                "type": "scripts",
+                "key": "StatusIcon"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/bonus/bonus_01.png",
+                "type": "image",
+                "key": "bonus_01"
+            },
+            {
+                "url": [
+                    "src/prefabs/011_level/Bonus_01.js"
+                ],
+                "type": "scripts",
+                "key": "Bonus_01"
+            },
+            {
+                "url": "assets/images/bonus/bonus_02.png",
+                "type": "image",
+                "key": "bonus_02"
+            },
+            {
+                "url": "assets/interactive/cage_01.png",
+                "type": "image",
+                "key": "cage_01"
+            },
+            {
+                "url": "assets/interactive/card_01.png",
+                "type": "image",
+                "key": "card_01"
+            },
+            {
+                "url": "assets/icons/circle_buttons_01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": 27,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "circle_buttons_01"
+            },
+            {
+                "url": [
+                    "src/components/ClickButton.js"
+                ],
+                "type": "scripts",
+                "key": "ClickButton"
+            },
+            {
+                "url": "assets/spritesheets/color_palette_sprites.png",
+                "frameConfig": {
+                    "frameWidth": 35,
+                    "frameHeight": 26,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "color_palette_sprites"
+            },
+            {
+                "url": [
+                    "src/components/ComponentBase.js"
+                ],
+                "type": "scripts",
+                "key": "ComponentBase"
+            },
+            {
+                "type": "multiatlas",
+                "url": "assets/atlas/components_01.json",
+                "path": "assets/atlas",
+                "key": "components_01"
+            },
+            {
+                "url": [
+                    "src/prefabs/000_uni/Dot.js"
+                ],
+                "type": "scripts",
+                "key": "Dot"
+            },
+            {
+                "url": [
+                    "src/components/DragAndDrop.js"
+                ],
+                "type": "scripts",
+                "key": "DragAndDrop"
+            },
+            {
+                "url": [
+                    "src/components/DropZone.js"
+                ],
+                "type": "scripts",
+                "key": "DropZone"
+            },
+            {
+                "url": [
+                    "lib/orien/InteractiveArea.js"
+                ],
+                "type": "scripts",
+                "key": "InteractiveArea"
+            },
+            {
+                "url": [
+                    "src/components/MarkableShape.js"
+                ],
+                "type": "scripts",
+                "key": "MarkableShape"
+            },
+            {
+                "url": [
+                    "src/prefabs/005_level/SimpleCage.js"
+                ],
+                "type": "scripts",
+                "key": "SimpleCage"
+            },
+            {
+                "url": [
+                    "src/prefabs/005_level/SimpleCard.js"
+                ],
+                "type": "scripts",
+                "key": "SimpleCard"
+            },
+            {
+                "url": "assets/images/star_01.png",
+                "type": "image",
+                "key": "star_01"
+            },
+            {
+                "url": "assets/particles/streak_01.png",
+                "type": "image",
+                "key": "streak_01"
+            },
+            {
+                "url": "assets/images/sun_01.png",
+                "type": "image",
+                "key": "sun_01"
+            },
+            {
+                "url": [
+                    "src/components/SwitchButton.js"
+                ],
+                "type": "scripts",
+                "key": "SwitchButton"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/007/satelit 01.png",
+                "type": "image",
+                "key": "satelit 01"
+            },
+            {
+                "url": "assets/images/007/satelit 02.png",
+                "type": "image",
+                "key": "satelit 02"
+            },
+            {
+                "url": "assets/images/starfield_01.png",
+                "type": "image",
+                "key": "starfield_01"
+            },
+            {
+                "url": "assets/images/007/ufo_01.png",
+                "type": "image",
+                "key": "ufo_01"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

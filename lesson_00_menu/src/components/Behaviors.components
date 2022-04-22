@@ -1,0 +1,503 @@
+{
+    "components": [
+        {
+            "name": "NavigateToURL",
+            "baseClass": "UserComponent",
+            "gameObjectType": "",
+            "properties": [
+                {
+                    "name": "instanceName",
+                    "label": "Instance Name",
+                    "tooltip": "Instance Name",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "localID",
+                    "label": "Local ID",
+                    "tooltip": "Local ID",
+                    "defValue": 3492,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "folderName",
+                    "label": "Folder Name",
+                    "tooltip": "Folder Name",
+                    "defValue": "folder_01",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "urlPath",
+                    "label": "URL Path",
+                    "tooltip": "URL Path",
+                    "defValue": "https://www.site.com",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "hitAreaScaleX",
+                    "label": "Hit Area Scale X",
+                    "tooltip": "Hit Area Scale X",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "hitAreaScaleY",
+                    "label": "Hit Area Scale Y",
+                    "tooltip": "Hit Area Scale Y",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PreloadText",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Text",
+            "properties": []
+        },
+        {
+            "name": "ClickButton",
+            "baseClass": "UserComponent",
+            "gameObjectType": "",
+            "properties": [
+                {
+                    "name": "hitAreaType",
+                    "label": "Hit Area Type",
+                    "tooltip": "Hit Area Type",
+                    "defValue": "rectangle",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "option",
+                        "options": [
+                            "rectangle",
+                            "circle",
+                            "csutom"
+                        ]
+                    }
+                },
+                {
+                    "name": "hitAreaScaleX",
+                    "label": "Hit Area Scale X",
+                    "tooltip": "Hit Area Scale X",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "hitAreaScaleY",
+                    "label": "Hit Area Scale Y",
+                    "tooltip": "Hit Area Scale Y",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "offsetAtCenter",
+                    "label": "Offset At Center",
+                    "tooltip": "Offset At Center",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "actionName",
+                    "label": "Action Name",
+                    "tooltip": "Action Name",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SwitchButton",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Container",
+            "properties": [
+                {
+                    "name": "hitAreaType",
+                    "label": "Hit Area Type",
+                    "tooltip": "Hit Area Type",
+                    "defValue": "rectangle",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "option",
+                        "options": [
+                            "rectangle",
+                            "circle",
+                            "csutom"
+                        ]
+                    }
+                },
+                {
+                    "name": "hitAreaScaleX",
+                    "label": "Hit Area Scale X",
+                    "tooltip": "Hit Area Scale X",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "hitAreaScaleY",
+                    "label": "Hit Area Scale Y",
+                    "tooltip": "Hit Area Scale Y",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "offsetAtCenter",
+                    "label": "Offset At Center",
+                    "tooltip": "Offset At Center",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "pressed",
+                    "label": "Is Pressed",
+                    "tooltip": "Is Pressed",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "StartAnimation",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "animationKey",
+                    "label": "Animation Key",
+                    "tooltip": "Animation Key",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ComponentBase",
+            "baseClass": "UserComponent",
+            "gameObjectType": "",
+            "properties": [
+                {
+                    "name": "instanceName",
+                    "label": "Instance Name",
+                    "tooltip": "Instance Name",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "colorize",
+                    "label": "Colorize",
+                    "tooltip": "Colorize",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "hexColor",
+                    "label": "Color",
+                    "tooltip": "Color",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "isLocked",
+                    "label": "Is Locked",
+                    "tooltip": "Is Locked",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "componentType",
+                    "label": "Component Type",
+                    "tooltip": "Component Type",
+                    "defValue": "Image",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "option",
+                        "options": [
+                            "Image",
+                            "Shape",
+                            "Text",
+                            "Container",
+                            "Button",
+                            "SwitchButton"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "NavigateToScene",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Text",
+            "properties": [
+                {
+                    "name": "instanceName",
+                    "label": "Instance Name",
+                    "tooltip": "Instance Name",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "sceneName",
+                    "label": "Scene Name",
+                    "tooltip": "Scene Name",
+                    "defValue": "Menu_001",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "hitAreaScaleX",
+                    "label": "Hit Area Scale X",
+                    "tooltip": "Hit Area Scale X",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "hitAreaScaleY",
+                    "label": "Hit Area Scale Y",
+                    "tooltip": "Hit Area Scale Y",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "MarkableShape",
+            "baseClass": "UserComponent",
+            "gameObjectType": "",
+            "properties": [
+                {
+                    "name": "isMarked",
+                    "label": "Is Marked",
+                    "tooltip": "Is Marked",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "markHexColor",
+                    "label": "Mark Color",
+                    "tooltip": "Mark Color",
+                    "defValue": "0xe570e5ff",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "DragAndDrop",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "hitAreaType",
+                    "label": "Hit Area Type",
+                    "tooltip": "Hit Area Type",
+                    "defValue": "rectangle",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "option",
+                        "options": [
+                            "rectangle",
+                            "circle",
+                            "csutom"
+                        ]
+                    }
+                },
+                {
+                    "name": "offsetAtCenter",
+                    "label": "Offset At Center",
+                    "tooltip": "Offset At Center",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "snapToZone",
+                    "label": "Snap To Zone",
+                    "tooltip": "Snap To Zone",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "returnBackOnMiss",
+                    "label": "Return Back on Miss",
+                    "tooltip": "Return Back on Miss",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "hitAreaScaleX",
+                    "label": "Hit Area Scale X",
+                    "tooltip": "Hit Area Scale X",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "hitAreaScaleY",
+                    "label": "Hit Area Scale Y",
+                    "tooltip": "Hit Area Scale Y",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "DropZone",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Container",
+            "properties": [
+                {
+                    "name": "hitAreaType",
+                    "label": "Hit Area Type",
+                    "tooltip": "Hit Area Type",
+                    "defValue": "rectangle",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "option",
+                        "options": [
+                            "rectangle",
+                            "circle",
+                            "csutom"
+                        ]
+                    }
+                },
+                {
+                    "name": "offsetAtCenter",
+                    "label": "Offset At Center",
+                    "tooltip": "Offset At Center",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "hitAreaScaleX",
+                    "label": "Hit Area Scale X",
+                    "tooltip": "Hit Area Scale X",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "hitAreaScaleY",
+                    "label": "Hit Area Scale Y",
+                    "tooltip": "Hit Area Scale Y",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "MovieClip",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Container",
+            "properties": [
+                {
+                    "name": "nameK",
+                    "label": "Name K",
+                    "tooltip": "Name K",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}
