@@ -15,4 +15,4 @@ Some basic examples which was done with Phaser 3 and Phaser Editor 2D
 *[Arian Fornaris](https://github.com/PhaserEditor2D)* | 
 *[Rex-rexrainbow](https://github.com/rexrainbow)* | 
 
-and to others involved in this project :-)
+and to others involved in this great project :-)
