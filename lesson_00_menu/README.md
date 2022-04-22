@@ -1,6 +1,6 @@
 
 
-# JavaScript project template
+# JavaScript project
 
 ![2022-04-22_17h51_13](https://user-images.githubusercontent.com/15173933/164750146-d072e80b-dacf-4b32-98b6-3cbf7b0a03f1.png)
 
