@@ -1,4 +1,4 @@
-# Phaser3-with-Editor2D-basic-examples
+# Phaser3-with-Editor2D-examples
 Some basic examples which was done with Phaser 3 and Phaser Editor 2D
 
 | *[Web Demo](http://cestaslunce.cz/testy/Phaser3-with-Editor-Basic)* |
