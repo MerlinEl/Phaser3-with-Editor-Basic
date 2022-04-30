@@ -1,0 +1,82 @@
+-----------------------------------------------------
+-----------------------------------------------------
+Live preview of glsl shaders in Visual Studio Code.
+-----------------------------------------------------
+install extensions:
+1) Shader language
+2) glsl-canvas
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+Setup
+-----------------------------------------------------
+1) WebGL2
+Now supporting WebGL2. just add #version 300 es at the very start of the file.
+
+2) Textures
+You can define the texture channels (u_texture_0, u_texture_1, ...) by modifying the workspace's settings.json file.
+{
+    "glsl-canvas.textures": {
+        "0": "./texture.png",
+        "1": "https://rawgit.com/actarian/plausible-brdf-shader/master/textures/noise/cloud-1.png",
+        "2": "https://rawgit.com/actarian/plausible-brdf-shader/master/textures/noise/cloud-2.jpg",        
+    }
+}
+
+3) Custom Uniforms
+You can also define custom uniforms by modifying the workspace's settings.json file.
+
+{
+    "glsl-canvas.uniforms": {
+        "u_strength": 1.0
+    }
+}
+
+4) Settings
+C:\Users\merli\AppData\Roaming\Code\User\settings.json
+
+
+5)
+due to VSCode file loading policy restriction you can load texture with relative path or over http with enabled CORS:
+
+"glsl-canvas.textures": {
+        "0": "./texture.png",
+        "1": "https://rawgit.com/actarian/plausible-brdf-shader/master/textures/noise/cloud-1.png",
+        "2": "https://rawgit.com/actarian/plausible-brdf-shader/master/textures/noise/cloud-2.jpg",        
+}
+You can also load textures directly in fragment with relative or remote http path:
+
+uniform sampler2D u_tex0; // data/moon.jpg
+uniform vec2 u_tex0Resolution;
+uniform sampler2D u_logo; // https://rawgit.com/actarian/glsl-canvas/master/docs/data/logo.jpg
+uniform vec2 u_logoResolution;
+
+path exams
+https://rawgit.com/actarian/plausible-brdf-shader/master/textures/noise/cloud-1.png
+https://raw.githubusercontent.com/MerlinEl/Assets/master/images/dino.png
+
+
+uniform sampler2D u_logo; // https://rawgit.com/actarian/glsl-canvas/master/docs/data/logo.jpg
+uniform vec2 u_logoResolution;
+
+This error need run VS code as Admin
+DEBUG INFO: ERROR: 0:12: 'texture' : no matching overloaded function found
+-----------------------------------------------------
+-----------------------------------------------------
+Learn glsl 
+-----------------------------------------------------
+
+http://editor.thebookofshaders.com/
+
+-----------------------------------------------------
+-----------------------------------------------------
+Resources
+-----------------------------------------------------
+
+https://github.com/patriciogonzalezvivo/glslEditor
+You can use it directly from editor.thebookofshaders.com or host one on your own website by including the two build files: glslEditor.css and glslEditor.js:
+<link type="text/css" rel="stylesheet" href="https://rawgit.com/patriciogonzalezvivo/glslEditor/gh-pages/build/glslEditor.css">
+<script type="application/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslEditor/gh-pages/build/glslEditor.js"></script>
+
+-----------------------------------------------------

@@ -177,44 +177,6 @@ class Level_014 extends Phaser.Scene {
 		text_title.setStyle({ "color": "#f5dbf5ff", "fontFamily": "vijaya_cz", "fontSize": "40px", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#5e41a2ff", "shadow.fill":true});
 		layer_top_bar.add(text_title);
 
-		// roundedrectangle
-		const roundedrectangle = this.add.roundedRectangle(959, 123, 50, 250);
-		roundedrectangle.setOrigin(0, 0);
-		roundedrectangle.fillColor = 6828205;
-		roundedrectangle.isStroked = true;
-		roundedrectangle.strokeColor = 11173599;
-		roundedrectangle.radius = 20;
-		roundedrectangle.radiusTL = 20;
-		roundedrectangle.radiusTR = 20;
-		roundedrectangle.radiusBL = 20;
-		roundedrectangle.radiusBR = 20;
-		roundedrectangle.shadowAlpha = 0;
-		layer_top_bar.add(roundedrectangle);
-
-		// btnGitHub
-		const btnGitHub = new BtnGitHub(this, 984, 339);
-		btnGitHub.scaleX = 0.5;
-		btnGitHub.scaleY = 0.5;
-		layer_top_bar.add(btnGitHub);
-
-		// btnRefreshPage
-		const btnRefreshPage = new BtnRefreshPage(this, 984, 219);
-		btnRefreshPage.scaleX = 0.5;
-		btnRefreshPage.scaleY = 0.5;
-		layer_top_bar.add(btnRefreshPage);
-
-		// btnFullScreen
-		const btnFullScreen = new BtnFullScreen(this, 984, 159);
-		btnFullScreen.scaleX = 0.5;
-		btnFullScreen.scaleY = 0.5;
-		layer_top_bar.add(btnFullScreen);
-
-		// btnHome
-		const btnHome = new BtnHome(this, 984, 279);
-		btnHome.scaleX = 0.5;
-		btnHome.scaleY = 0.5;
-		layer_top_bar.add(btnHome);
-
 		// rectangle_bottom_01
 		const rectangle_bottom_01 = this.add.rectangle(101, 709, 810, 150);
 		rectangle_bottom_01.scaleX = 0.9886865036951002;
@@ -264,19 +226,19 @@ class Level_014 extends Phaser.Scene {
 		text_113_1_1_2_1_3_2_1_1_1_1.setStyle({ "color": "#f5dbf5ff", "fontFamily": "Arial", "fontSize": "22px", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff", "shadow.fill":true});
 
 		// text
-		const text = this.add.text(644, 392, "", {});
+		const text = this.add.text(627, 386, "", {});
 		text.setOrigin(0, 0.5);
 		text.text = "blur : vertical - horizontal";
 		text.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
 
 		// text_1
-		const text_1 = this.add.text(88, 261, "", {});
+		const text_1 = this.add.text(136, 254, "", {});
 		text_1.setOrigin(0, 0.5);
 		text_1.text = "touch to switch shader :";
 		text_1.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
 
 		// satelit_01_tf
-		const satelit_01_tf = this.add.text(276, 262, "", {});
+		const satelit_01_tf = this.add.text(324, 255, "", {});
 		satelit_01_tf.setOrigin(0, 0.5);
 		satelit_01_tf.text = "SpiralTime";
 		satelit_01_tf.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
@@ -312,118 +274,103 @@ class Level_014 extends Phaser.Scene {
 		satelit_03.flipX = true;
 
 		// text_4
-		const text_4 = this.add.text(835, 586, "", {});
+		const text_4 = this.add.text(779, 585, "", {});
 		text_4.setOrigin(0, 0.5);
 		text_4.text = "touch - grayscale";
 		text_4.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
 
 		// text_5
-		const text_5 = this.add.text(40, 509, "", {});
+		const text_5 = this.add.text(6, 526, "", {});
 		text_5.setOrigin(0, 0.5);
-		text_5.text = "touch - noise";
+		text_5.text = "touch noise simple - fractal";
 		text_5.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
 
 		// text_6
-		const text_6 = this.add.text(167, 677, "", {});
+		const text_6 = this.add.text(209, 407, "", {});
 		text_6.setOrigin(0, 0.5);
 		text_6.text = "touch - plasma";
 		text_6.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
 
-		// text_8
-		const text_8 = this.add.text(153, 512, "", {});
-		text_8.setOrigin(0, 0.5);
-		text_8.tintTopLeft = 16477248;
-		text_8.tintTopRight = 16477248;
-		text_8.tintBottomLeft = 16477248;
-		text_8.tintBottomRight = 16477248;
-		text_8.text = "TODO";
-		text_8.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
+		// roundedrectangle
+		const roundedrectangle = this.add.roundedRectangle(959, 126, 50, 300);
+		roundedrectangle.setOrigin(0, 0);
+		roundedrectangle.fillColor = 6828205;
+		roundedrectangle.isStroked = true;
+		roundedrectangle.strokeColor = 11173599;
+		roundedrectangle.radius = 20;
+		roundedrectangle.radiusTL = 20;
+		roundedrectangle.radiusTR = 20;
+		roundedrectangle.radiusBL = 20;
+		roundedrectangle.radiusBR = 20;
+		roundedrectangle.shadowAlpha = 0;
 
-		// text_7
-		const text_7 = this.add.text(295, 678, "", {});
-		text_7.setOrigin(0, 0.5);
-		text_7.tintTopLeft = 16477248;
-		text_7.tintTopRight = 16477248;
-		text_7.tintBottomLeft = 16477248;
-		text_7.tintBottomRight = 16477248;
-		text_7.text = "TODO";
-		text_7.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
+		// btnGitHub
+		const btnGitHub = new BtnGitHub(this, 984, 399);
+		this.add.existing(btnGitHub);
+		btnGitHub.scaleX = 0.5;
+		btnGitHub.scaleY = 0.5;
 
-		// text_9
-		const text_9 = this.add.text(850, 392, "", {});
-		text_9.setOrigin(0, 0.5);
-		text_9.tintTopLeft = 16477248;
-		text_9.tintTopRight = 16477248;
-		text_9.tintBottomLeft = 16477248;
-		text_9.tintBottomRight = 16477248;
-		text_9.text = "TODO";
-		text_9.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
+		// btnHome
+		const btnHome = new BtnHome(this, 984, 319);
+		this.add.existing(btnHome);
+		btnHome.scaleX = 0.5;
+		btnHome.scaleY = 0.5;
 
-		// text_10
-		const text_10 = this.add.text(561, 659, "", {});
-		text_10.setOrigin(0, 0.5);
-		text_10.tintTopLeft = 16477248;
-		text_10.tintTopRight = 16477248;
-		text_10.tintBottomLeft = 16477248;
-		text_10.tintBottomRight = 16477248;
-		text_10.text = "TODO";
-		text_10.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
+		// btnRefreshPage
+		const btnRefreshPage = new BtnRefreshPage(this, 984, 239);
+		this.add.existing(btnRefreshPage);
+		btnRefreshPage.scaleX = 0.5;
+		btnRefreshPage.scaleY = 0.5;
 
-		// text_11
-		const text_11 = this.add.text(980, 588, "", {});
-		text_11.setOrigin(0, 0.5);
-		text_11.tintTopLeft = 16477248;
-		text_11.tintTopRight = 16477248;
-		text_11.tintBottomLeft = 16477248;
-		text_11.tintBottomRight = 16477248;
-		text_11.text = "OK";
-		text_11.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
+		// btnFullScreen
+		const btnFullScreen = new BtnFullScreen(this, 984, 159);
+		this.add.existing(btnFullScreen);
+		btnFullScreen.scaleX = 0.5;
+		btnFullScreen.scaleY = 0.5;
 
-		// text_12
-		const text_12 = this.add.text(373, 263, "", {});
-		text_12.setOrigin(0, 0.5);
-		text_12.tintTopLeft = 16477248;
-		text_12.tintTopRight = 16477248;
-		text_12.tintBottomLeft = 16477248;
-		text_12.tintBottomRight = 16477248;
-		text_12.text = "OK";
-		text_12.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
+		// satelit_06
+		const satelit_06 = this.add.image(300, 344, "satelit 02");
+		satelit_06.scaleX = 0.1389633463513522;
+		satelit_06.scaleY = 0.1389633463513522;
+		satelit_06.flipX = true;
+
+		// text_13
+		const text_13 = this.add.text(155, 686, "", {});
+		text_13.setOrigin(0, 0.5);
+		text_13.text = "touch - smooth outline";
+		text_13.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
+
+		// status_Icon_01
+		const status_Icon_01 = new StatusIcon(this, 384, 688);
+		this.add.existing(status_Icon_01);
+
+		// status_Icon
+		const status_Icon = new StatusIcon(this, 972, 585);
+		this.add.existing(status_Icon);
+
+		// status_Icon_1
+		const status_Icon_1 = new StatusIcon(this, 602, 658);
+		this.add.existing(status_Icon_1);
+
+		// status_Icon_2
+		const status_Icon_2 = new StatusIcon(this, 267, 528);
+		this.add.existing(status_Icon_2);
+
+		// status_Icon_3
+		const status_Icon_3 = new StatusIcon(this, 375, 408);
+		this.add.existing(status_Icon_3);
+
+		// status_Icon_4
+		const status_Icon_4 = new StatusIcon(this, 97, 256);
+		this.add.existing(status_Icon_4);
+
+		// status_Icon_5
+		const status_Icon_5 = new StatusIcon(this, 881, 387);
+		this.add.existing(status_Icon_5);
 
 		// text_1_1 (components)
 		const text_1_1NavigateToScene = new NavigateToScene(text_1_1);
 		text_1_1NavigateToScene.hitAreaScaleY = 1.5;
-
-		// btnGitHub (components)
-		const btnGitHubComponentBase = new ComponentBase(btnGitHub);
-		btnGitHubComponentBase.instanceName = "btn_github_01";
-		btnGitHubComponentBase.colorize = true;
-		btnGitHubComponentBase.hexColor = "0xaa7edf";
-		btnGitHubComponentBase.componentType = "Button";
-		new ClickButton(btnGitHub);
-
-		// btnRefreshPage (components)
-		const btnRefreshPageComponentBase = new ComponentBase(btnRefreshPage);
-		btnRefreshPageComponentBase.instanceName = "btn_reload_page_01";
-		btnRefreshPageComponentBase.colorize = true;
-		btnRefreshPageComponentBase.hexColor = "0xaa7edf";
-		btnRefreshPageComponentBase.componentType = "Button";
-		new ClickButton(btnRefreshPage);
-
-		// btnFullScreen (components)
-		const btnFullScreenComponentBase = new ComponentBase(btnFullScreen);
-		btnFullScreenComponentBase.instanceName = "btn_fullscreen_switch_01";
-		btnFullScreenComponentBase.colorize = true;
-		btnFullScreenComponentBase.hexColor = "0xaa7edf";
-		btnFullScreenComponentBase.componentType = "SwitchButton";
-		new SwitchButton(btnFullScreen);
-
-		// btnHome (components)
-		const btnHomeComponentBase = new ComponentBase(btnHome);
-		btnHomeComponentBase.instanceName = "btn_home_01";
-		btnHomeComponentBase.colorize = true;
-		btnHomeComponentBase.hexColor = "0xaa7edf";
-		btnHomeComponentBase.componentType = "SwitchButton";
-		new ClickButton(btnHome);
 
 		// text_113_1_1_2_1_3_2_1_1_1 (components)
 		const text_113_1_1_2_1_3_2_1_1_1NavigateToURL = new NavigateToURL(text_113_1_1_2_1_3_2_1_1_1);
@@ -445,8 +392,67 @@ class Level_014 extends Phaser.Scene {
 		text_3NavigateToURL.urlPath = "https://github.com/dataarts/dat.gui/blob/master/API.md";
 		text_3NavigateToURL.hitAreaScaleY = 2;
 
-		this.btnRefreshPage = btnRefreshPage;
-		this.btnFullScreen = btnFullScreen;
+		// btnGitHub (components)
+		const btnGitHubComponentBase = new ComponentBase(btnGitHub);
+		btnGitHubComponentBase.instanceName = "btn_github_01";
+		btnGitHubComponentBase.colorize = true;
+		btnGitHubComponentBase.hexColor = "0xaa7edf";
+		btnGitHubComponentBase.componentType = "Button";
+		const btnGitHubClickButton = new ClickButton(btnGitHub);
+		btnGitHubClickButton.hitAreaScaleX = 1.8;
+		btnGitHubClickButton.hitAreaScaleY = 1.8;
+
+		// btnHome (components)
+		const btnHomeComponentBase = new ComponentBase(btnHome);
+		btnHomeComponentBase.instanceName = "btn_home_01";
+		btnHomeComponentBase.colorize = true;
+		btnHomeComponentBase.hexColor = "0xaa7edf";
+		btnHomeComponentBase.componentType = "Button";
+		const btnHomeClickButton = new ClickButton(btnHome);
+		btnHomeClickButton.hitAreaScaleX = 1.8;
+		btnHomeClickButton.hitAreaScaleY = 1.8;
+
+		// btnRefreshPage (components)
+		const btnRefreshPageComponentBase = new ComponentBase(btnRefreshPage);
+		btnRefreshPageComponentBase.instanceName = "btn_reload_page_01";
+		btnRefreshPageComponentBase.colorize = true;
+		btnRefreshPageComponentBase.hexColor = "0xaa7edf";
+		btnRefreshPageComponentBase.componentType = "Button";
+		const btnRefreshPageClickButton = new ClickButton(btnRefreshPage);
+		btnRefreshPageClickButton.hitAreaScaleX = 1.8;
+		btnRefreshPageClickButton.hitAreaScaleY = 1.8;
+
+		// btnFullScreen (components)
+		const btnFullScreenComponentBase = new ComponentBase(btnFullScreen);
+		btnFullScreenComponentBase.instanceName = "btn_fullscreen_switch_01";
+		btnFullScreenComponentBase.colorize = true;
+		btnFullScreenComponentBase.hexColor = "0xaa7edf";
+		btnFullScreenComponentBase.componentType = "SwitchButton";
+		const btnFullScreenSwitchButton = new SwitchButton(btnFullScreen);
+		btnFullScreenSwitchButton.hitAreaScaleX = 1.8;
+		btnFullScreenSwitchButton.hitAreaScaleY = 1.8;
+
+		// status_Icon_01 (prefab fields)
+		status_Icon_01.progressStatus = "On Hold";
+
+		// status_Icon (prefab fields)
+		status_Icon.progressStatus = "Done";
+
+		// status_Icon_1 (prefab fields)
+		status_Icon_1.progressStatus = "On Hold";
+
+		// status_Icon_2 (prefab fields)
+		status_Icon_2.progressStatus = "Done";
+
+		// status_Icon_3 (prefab fields)
+		status_Icon_3.progressStatus = "Done";
+
+		// status_Icon_4 (prefab fields)
+		status_Icon_4.progressStatus = "Done";
+
+		// status_Icon_5 (prefab fields)
+		status_Icon_5.progressStatus = "On Hold";
+
 		this.satelit_02 = satelit_02;
 		this.satelit_01 = satelit_01;
 		this.ufo_01 = ufo_01;
@@ -454,14 +460,13 @@ class Level_014 extends Phaser.Scene {
 		this.satelit_04 = satelit_04;
 		this.satelit_05 = satelit_05;
 		this.satelit_03 = satelit_03;
+		this.btnRefreshPage = btnRefreshPage;
+		this.btnFullScreen = btnFullScreen;
+		this.satelit_06 = satelit_06;
 
 		this.events.emit("scene-awake");
 	}
 
-	/** @type {BtnRefreshPage} */
-	btnRefreshPage;
-	/** @type {BtnFullScreen} */
-	btnFullScreen;
 	/** @type {Phaser.GameObjects.Image} */
 	satelit_02;
 	/** @type {Phaser.GameObjects.Image} */
@@ -476,6 +481,12 @@ class Level_014 extends Phaser.Scene {
 	satelit_05;
 	/** @type {Phaser.GameObjects.Image} */
 	satelit_03;
+	/** @type {BtnRefreshPage} */
+	btnRefreshPage;
+	/** @type {BtnFullScreen} */
+	btnFullScreen;
+	/** @type {Phaser.GameObjects.Image} */
+	satelit_06;
 
 	/* START-USER-CODE */
 	time = 0.0;
@@ -489,138 +500,161 @@ class Level_014 extends Phaser.Scene {
 		this.load.glsl('bundle', 'assets/shaders/bundle_001.glsl');
 		this.load.glsl('gusain_blur', 'assets/shaders/gusain_blur1.frag');
 
+		this.load.plugin('outlineglowpipelineplugin', 'lib/filters/outlineglowpipelineplugin.js', true);
+		this.load.plugin('blurpipelineplugin', 'lib/filters/blurpipelineplugin.js', true);
+		//this.load.plugin('outlinedotspipelineplugin', 'lib/filters/outlinedotspipelineplugin.js', true);
+
+		this.load.glsl('fireball', 'assets/shaders/shader0.frag');
+
+		// load filter pipelines
+		AssetLoader.loadPipeline(this, "NoisePipeline");
+		AssetLoader.loadPipeline(this, "PlasmaPipeline");
+		AssetLoader.loadPipeline(this, "GrayscalePipeline");
+		AssetLoader.loadPipeline(this, "SmoothOutlinePipeline");
+
 		// init grayscale pipeline
 		var game = this.game;
-		var GrayscalePipeline = new Phaser.Class({
-			Extends: Phaser.Renderer.WebGL.Pipelines.SpriteFXPipeline,
-			initialize:
-			function GrayscalePipeline (game) {
-				Phaser.Renderer.WebGL.Pipelines.SpriteFXPipeline.call(this, {
-					game: game,
-					renderer: game.renderer,
-					fragShader:`
-						precision mediump float;
-						uniform sampler2D uMainSampler;
-						varying vec2 outTexCoord;
-						void main(void) {
-						vec4 color = texture2D(uMainSampler, outTexCoord);
-						float gray = dot(color.rgb, vec3(0.299, 0.587, 0.114));
-						if (color.a < 0.5) discard; // discard transparent pixels
-						gl_FragColor = vec4(vec3(gray), 1.0);
-						}`
-				});
-			} 
-		});
-		game.renderer.pipelines.add('Grayscale', new GrayscalePipeline(game));
 
-		// init noise pipeline
-		var NoisePipeline = new Phaser.Class({
+		//1.
+		//Animated Dotted Outline Shader in Unity
+		//https://lindenreidblog.com/2017/12/24/animated-dotted-outline-shader-in-unity/
+		//2.
+		//https://jcgt.org/published/0002/02/08/paper.pdf
+		/*var AnimatedDashedOutline = new Phaser.Class({
 			Extends: Phaser.Renderer.WebGL.Pipelines.SpriteFXPipeline,
 			initialize:
-			function NoisePipeline (game) {
+			function AnimatedDashedOutline (game) {
 				Phaser.Renderer.WebGL.Pipelines.SpriteFXPipeline.call(this, {
 					game: game,
 					renderer: game.renderer,
 					fragShader:`
 					precision mediump float;
-					uniform float uTime;
-					uniform sampler2D uMainSampler;
-					varying vec2 outTexCoord;
-					// Yuldashev Mahmud Effect took from shaderToy mahmud9935@gmail.com
-					float snoise(vec3 uv, float res){
-
-						const vec3 s = vec3(1e0, 1e2, 1e3);
-						uv *= res;
-						vec3 uv0 = floor(mod(uv, res))*s;
-						vec3 uv1 = floor(mod(uv+vec3(1.), res))*s;
-						vec3 f = fract(uv); f = f*f*(3.0-2.0*f);
-						vec4 v = vec4(uv0.x+uv0.y+uv0.z, uv1.x+uv0.y+uv0.z,
-						uv0.x+uv1.y+uv0.z, uv1.x+uv1.y+uv0.z);
-						vec4 r = fract(sin(v*1e-1)*1e3);
-						float r0 = mix(mix(r.x, r.y, f.x), mix(r.z, r.w, f.x), f.y);
-						r = fract(sin((v + uv1.z - uv0.z)*1e-1)*1e3);
-						float r1 = mix(mix(r.x, r.y, f.x), mix(r.z, r.w, f.x), f.y);
-						return mix(r0, r1, f.z)*2.-1.;
+					uniform sampler2D dash_atlas;
+					uniform float dash_index, dash_phase, dash_period;
+					uniform float linelength, linewidth, antialias;
+					uniform vec2 caps, texcoord;
+					uniform vec4 color;
+					// t = linewidth/2.0 - antialias;
+					float cap( float type, float u, float v, float t ){
+						// None
+						if ( type < 0.5 ) discard;
+						// Round
+						else if ( abs(type - 1.0) < 0.5 ) return sqrt(u*u+v*v);
+						// Triangle out
+						else if ( abs(type - 2.0) < 0.5 ) return max(abs(v),(t+u-abs(v)));
+						// Triangle in
+						else if ( abs(type - 3.0) < 0.5 ) return (u+abs(v));
+						// Square
+						else if ( abs(type - 4.0) < 0.5 ) return max(u,v);
+						// Butt
+						else if ( abs(type - 5.0) < 0.5 ) return max(u+t,v);
+						discard;
 					}
-
-					void main( void ) {
-
-						vec4 front = texture2D(uMainSampler, outTexCoord);
-						if (front.a > 0.5){ // skip transparent pixels
-
-							vec2 p = -.5 + gl_FragCoord.xy / outTexCoord.xy;
-							p.x *= outTexCoord.x/outTexCoord.y;
-
-							float color = 3.0 - (3.*length(2.*p));
-							vec3 coord = vec3(atan(p.x,p.y)/6.2832+.5, length(p)*.4, .5);
-
-							for(int i = 1; i <= 7; i++) {
-								float power = pow(2.0, float(i));
-								color += (1.5 / power) * snoise(coord + vec3(0.,-uTime*.05, uTime*.01), power*16.);
-							}
-							gl_FragColor = vec4( color, pow(max(color,0.),2.)*0.4, pow(max(color,0.),3.)*0.15 , 1.0);
+					int main() {
+						float w = linewidth;
+						float freq = w*dash_period;
+						float u = texcoord.x;
+						float v = texcoord.y;
+						float u_ = mod( u + w*dash_phase, freq );
+						vec4 dash = texture2D(dash_atlas, vec2(u_/freq, dash_index));
+						float dash_ref = dash.x;
+						float dash_type = dash.y;
+						float dash_start = (u - u_) + w * dash.z;
+						float dash_stop = (u - u_) + w * dash.w;
+						float line_start = 0.0;
+						float line_stop = linelength;
+						bool cross_start = (dash_start <= line_start) &&
+						(dash_stop >= line_start);
+						bool cross_stop = (dash_stop >= line_stop) &&
+						(dash_start <= line_stop);
+						float t = linewidth/2.0 - antialias;
+						// Default distance to the line body (7)
+						float d = abs(v);
+						// Dash stop is before line start
+						if( dash_stop <= line_start )
+							discard;
+						// Dash start is beyond line stop
+						else if( dash_start >= line_stop )
+							discard;
+						// Dash is across line start and fragment before line start (1)
+						else if( (u <= line_start) && (cross_start) )
+							d = cap( caps.x, u, v, t);
+							// Dash is across line stop and fragment after line stop (4)
+							else if( (u >= line_stop) && (cross_stop) )
+							d = cap( caps.y, u - line_stop, v, t );
+							// Dash cap start (5)
+						else if( dash_type < 0.0 )
+							d = cap( caps.y, u-dash_ref, v, t );
+							// Dash cap stop (6)
+						else if( dash_type > 0.0 )
+							d = cap( caps.x, dash_ref-u, v, t );
+							// Antialias test
+							d -= t;
+						if( d < 0.0 ) {
+							gl_FragColor = color;
+						} else {
+							d /= antialias;
+							gl_FragColor = vec4(color.rgb, exp(-d*d)*color.a);
 						}
 					}`
 				});
 			} 
-		});
-		this.noisePipeline = game.renderer.pipelines.add('Noise', new NoisePipeline(game));
-		// noisePipeline.set2f('outTexCoord', game.config.width, game.config.height);
+		});*/
 
-		// init plasma pipeline
-		var PlasmaPipeline = new Phaser.Class({
-				Extends: Phaser.Renderer.WebGL.Pipelines.SpriteFXPipeline,
-				initialize:
-				function PlasmaPipeline (game) {
-					Phaser.Renderer.WebGL.Pipelines.SpriteFXPipeline.call(this, {
-						game: game,
-						renderer: game.renderer,
-						fragShader: `
-						precision mediump float;
-						uniform sampler2D uMainSampler;
-						uniform vec2 uResolution;
-						uniform float uTime;
+		//TODO
+		//GODOT GLOW
+		//https://github.com/GDQuest/godot-shaders/blob/master/godot/Shaders/baked_sprite_glow.shader
 
-						varying vec2 outTexCoord;
-						varying vec4 outTint;
 
-						vec4 plasma()
-						{
-							vec2 pixelPos = gl_FragCoord.xy / uResolution * 20.0;
-							float freq = 0.8;
-							float value =
-								sin(uTime + pixelPos.x * freq) +
-								sin(uTime + pixelPos.y * freq) +
-								sin(uTime + (pixelPos.x + pixelPos.y) * freq) +
-								cos(uTime + sqrt(length(pixelPos - 0.5)) * freq * 2.0);
 
-							return vec4(
-								cos(value),
-								sin(value),
-								sin(value * 3.14 * 2.0),
-								cos(value)
-							);
+		/*var AnimatedDashedOutline = new Phaser.Class({
+			Extends: Phaser.Renderer.WebGL.Pipelines.SpriteFXPipeline,
+			initialize:
+			function AnimatedDashedOutline (game) {
+				Phaser.Renderer.WebGL.Pipelines.SpriteFXPipeline.call(this, {
+					game: game,
+					renderer: game.renderer,
+					fragShader:`
+					precision mediump float;
+					uniform sampler2D uMainSampler;
+					uniform vec2 texSize;
+					varying vec2 outTexCoord;
+
+					bool Smooth = true;
+					const float width = 3.0;
+					vec4 outline_color = vec4(1.0, 0.0, 0.0, 1.0);
+					int pixel_size = 4;
+					void main() {
+
+						vec2 unit = (1.0/float(pixel_size) ) / texSize;
+						vec4 pixel_color = texture2D(uMainSampler, outTexCoord);
+						if (pixel_color.a == 0.0) {
+							pixel_color = outline_color;
+							pixel_color.a = 0.0;
+							for (float x = -ceil(width); x <= ceil(width); x++) {
+								for (float y = -ceil(width); y <= ceil(width); y++) {
+									if (texture2D(uMainSampler, outTexCoord + vec2(x*unit.x, y*unit.y)).a == 0.0 || (x==0.0 && y==0.0)) {
+										continue;
+									}
+									if (Smooth) {
+										pixel_color.a += outline_color.a / (pow(x,2.0)+pow(y,2.0)) * (1.0-pow(2.0, -width));
+										if (pixel_color.a > 1.0) {
+											pixel_color.a = 1.0;
+										}
+									} else {
+										pixel_color.a = outline_color.a;
+										return;
+									}
+								}
+							}
 						}
-
-						void main(){
-
-							vec4 texture = texture2D(uMainSampler, outTexCoord);
-							texture *= vec4(outTint.rgb * outTint.a, outTint.a);
-							gl_FragColor = texture * plasma();
-						}`,
-					uniforms: [
-						'uProjectionMatrix',
-						'uViewMatrix',
-						'uModelMatrix',
-						'uMainSampler',
-						'uResolution',
-						'uTime'
-					]
+						gl_FragColor = pixel_color;
+					}
+					`
 				});
 			} 
 		});
-		this.plasmaPipeline = game.renderer.pipelines.add('Plasma', new PlasmaPipeline(game));
-		// this.plasmaPipeline.set2f('uResolution', game.config.width, game.config.height);
+		game.renderer.pipelines.add('AnimatedDashedOutline', new AnimatedDashedOutline(game));*/
 	}
 	create() {
 
@@ -633,14 +667,12 @@ class Level_014 extends Phaser.Scene {
 		Ctrace(this.scene.key + " > create > DONE!");
 		this.initComponents();
 	}
-	update(){
+	update() {
 
-		this.noisePipeline.set1f('uTime', this.time);
-		this.plasmaPipeline.set1f('uTime', this.time);
-		this.time += 0.05;
-		if (this.time > 1000000000.0) this.time = 0; // prevent elndless rising value ;-)
+		this.noisePipeline.time += 0.01;
+		this.plasmaPipeline.time += 0.01;
 	}
-	initComponents(){
+	initComponents() {
 		// https://rexrainbow.github.io/phaser3-rex-notes/docs/site/shader/?msclkid=9f541c5dbd9411ecaed12be4f1542ad8
 		// var shader = scene.add.shader(key, x, y, width, height, textures);
 		// textures : Optional array of texture keys to bind to the iChannel0, iChannel1, iChannel2, iChannel3 uniforms.
@@ -654,14 +686,14 @@ class Level_014 extends Phaser.Scene {
 		this.addNoiseShader(this.satelit_04);
 		this.addMultiShader(this.satelit_01, this.satelit_01_tf);
 		this.addGrayscaleShader(this.satelit_03);
-		this.addPlasmaShader(this.satelit_05);
+		this.addPlasmaShader(this.satelit_06);
+		this.addSmoothOutline(this.satelit_05);
+		this.addOutlineFilters(this.ufo_01);
+		this.addGusainBlur(this.satelit_02);
 
 		var shaderCache = this.sys.cache.shader
 		Ctrace(this.scene.key + " > shaderCache:{0}", shaderCache)
 		console.dir(shaderCache);
-
-		this.addOutlineFilters(this.ufo_01);
-		this.addGusainBlur(this.satelit_02);
 
 		// const baseShader = new Phaser.Display.BaseShader('fireball');
 		//shader.add('fireball', 0, 0, 400, 600);
@@ -690,11 +722,11 @@ class Level_014 extends Phaser.Scene {
 
 
 		//const baseShader = new Phaser.Display.BaseShader('BufferShader', fragmentShader);
-        //const shader = this.add.shader(baseShader, 400, 300, 800, 600).setMask(bitmask1);
+		//const shader = this.add.shader(baseShader, 400, 300, 800, 600).setMask(bitmask1);
 
 		// const baseShader1 = new Phaser.Display.BaseShader('BufferShader1', fragmentShader7);
-        // const baseShader2 = new Phaser.Display.BaseShader('BufferShader2', fragmentShader3);
-        // const baseShader3 = new Phaser.Display.BaseShader('BufferShader3', fragmentShader6);
+		// const baseShader2 = new Phaser.Display.BaseShader('BufferShader2', fragmentShader3);
+		// const baseShader3 = new Phaser.Display.BaseShader('BufferShader3', fragmentShader6);
 		// shader.setShader(baseShader1);
 
 		// Ctrace(this.key + " > initComponents:");
@@ -702,28 +734,52 @@ class Level_014 extends Phaser.Scene {
 		// var current_shader_index = 0;
 		// var shaders = [baseShader1, baseShader2, baseShader3]
 		// this.input.on('pointerup', function (pointer) {
-
-
 		// }
 	}
-	addPlasmaShader(go){
+	addSmoothOutline(go) {
 
-		var plasmaPipeline = this.plasmaPipeline;
-		plasmaPipeline.set2f('outTexCoord', this.game.config.width, this.game.config.height);
-		go.setInteractive()
-		.on('pointerdown', function (pointer) {
+		this.game.renderer.pipelines.add('SmoothOutline', new SmoothOutlinePipeline(this.game));
+		const pipeline = this.renderer.pipelines.get('SmoothOutline');
+		go
+			.setPipeline('SmoothOutline')
+			.setInteractive()
+			.on('pointerdown', function (pointer) {
 
-			if (this.pipeline === plasmaPipeline){
+				// Ctrace("Smooth:{0}", pipeline.smooth);
+				if (pipeline.smooth) {
 
-				this.resetPipeline();
-			}
-			else {
+					this.pipeline.setSmooth(false);
+					this.pipeline.setOutlineColor(0x04f404);
+				}
+				else {
 
-				this.setPipeline('Plasma');
-			}
-		});
+					this.pipeline.setSmooth(true);
+					this.pipeline.setOutlineColor(0xf4048c);
+				}
+			});
 	}
-	addGusainBlur(go){
+	addPlasmaShader(go) {
+
+		var plasmaPipeline = this.game.renderer.pipelines.add('Plasma', new PlasmaPipeline(this.game));
+		plasmaPipeline.setTextureSize(go.displayWidth, go.displayHeight)
+		// plasmaPipeline.setTextureSize(this.game.config.width, this.game.config.height);
+		go
+		.setPipeline('Plasma')
+		.setInteractive()
+			.on('pointerdown', function (pointer) {
+
+				if (this.pipeline === plasmaPipeline) {
+
+					this.resetPipeline();
+				}
+				else {
+
+					this.setPipeline('Plasma');
+				}
+			});
+		this.plasmaPipeline = plasmaPipeline;
+	}
+	addGusainBlur(go) {
 
 		// const baseShader = new Phaser.Display.BaseShader('gusain_blur');
 		// this.add.shader('gusain_blur', 0, 0, 400, 600)//.setOrigin(0).setMask(bitmask1).visible = false;
@@ -734,60 +790,60 @@ class Level_014 extends Phaser.Scene {
 			tint: false,
 			tintColor: Phaser.Display.Color.GetColor32(255, 10, 0, 0.2)
 		});
-		var f1 = this.datGui.addFolder('Gussain Blur - Satelite Right');
-        f1.add(postFxPipeline, 'blurX', 0.0, 10);
+		var f1 = this.datGui.addFolder('Gussain Blur - Satelite');
+		f1.add(postFxPipeline, 'blurX', 0.0, 10);
 		f1.add(postFxPipeline, 'blurY', 0.0, 10);
 		f1.add(postFxPipeline, 'tint', true, false);
 		f1.addColor(postFxPipeline, 'tintColor');
 		// f1.open();
 	}
-	addOutlineFilters(go){
+	addOutlineFilters(go) {
 
 		var postFxPlugin = this.plugins.get('outlineglowpipelineplugin');
 		Ctrace("pp")
 		console.dir(postFxPlugin);
 		go.setInteractive()
-		.on('pointerdown', function (pointer) {
+			.on('pointerdown', function (pointer) {
 
-			if (!this.glowPipeline){
-				// Add postfx pipeline
-				postFxPlugin.add(go, {
-					thickness: 3,
-					levels:5,
-					outlineColor: Phaser.Display.Color.GetColor32(255, 0, 0, 0.2)
-				});
+				if (!this.glowPipeline) {
+					// Add postfx pipeline
+					postFxPlugin.add(go, {
+						thickness: 3,
+						levels: 5,
+						outlineColor: Phaser.Display.Color.GetColor32(255, 0, 0, 0.2)
+					});
 
-				/*postFxPlugin.add(go, {
-					thickness: 3,
-					outlineColor: Phaser.Display.Color.GetColor32(255, 0, 0, 0.2)
-				});
+					/*postFxPlugin.add(go, {
+						thickness: 3,
+						outlineColor: Phaser.Display.Color.GetColor32(255, 0, 0, 0.2)
+					});
 
-				// Cascade 2nd outline
-				postFxPlugin.add(go, {
-					thickness: 5,
-					outlineColor: Phaser.Display.Color.GetColor32(255, 0, 0, 0.2)
-				});
+					// Cascade 2nd outline
+					postFxPlugin.add(go, {
+						thickness: 5,
+						outlineColor: Phaser.Display.Color.GetColor32(255, 0, 0, 0.2)
+					});
 
-				// Cascade 3nd outline
-				postFxPlugin.add(go, {
-					thickness: 7,
-					outlineColor: Phaser.Display.Color.GetColor32(255, 0, 0, 0.2)
-				});
+					// Cascade 3nd outline
+					postFxPlugin.add(go, {
+						thickness: 7,
+						outlineColor: Phaser.Display.Color.GetColor32(255, 0, 0, 0.2)
+					});
 
-				// Cascade 4nd outline
-				postFxPlugin.add(go, {
-					thickness: 12,
-					outlineColor: Phaser.Display.Color.GetColor32(255, 0, 0, 0.2)
-				});*/
+					// Cascade 4nd outline
+					postFxPlugin.add(go, {
+						thickness: 12,
+						outlineColor: Phaser.Display.Color.GetColor32(255, 0, 0, 0.2)
+					});*/
 
-				go.glowPipeline = true;
-			}
-			else {
-				// Remove all outline post-fx pipelines
-				postFxPlugin.remove(go);
-				go.glowPipeline = false;
-			}
-		});
+					go.glowPipeline = true;
+				}
+				else {
+					// Remove all outline post-fx pipelines
+					postFxPlugin.remove(go);
+					go.glowPipeline = false;
+				}
+			});
 
 		// postFxPlugin.setQuality(0.5);
 		// quality : 0 ~ 1, default is 0.1.
@@ -795,31 +851,31 @@ class Level_014 extends Phaser.Scene {
 		// 0.08 : 8 sample points.
 		// 1 : 100 sample points.
 	}
-	addOutlineFilters2(go){
+	addOutlineFilters2(go) {
 
 		var postFxPlugin = this.plugins.get('outlineglowpipelineplugin');
 		go.setInteractive()
-		.on('pointerover', function () {
-			// Add postfx pipeline
-			postFxPlugin.add(go, {
-				thickness: 3,
-				outlineColor: 0xff8a50
-			});
+			.on('pointerover', function () {
+				// Add postfx pipeline
+				postFxPlugin.add(go, {
+					thickness: 3,
+					outlineColor: 0xff8a50
+				});
 
-			// Cascade 2nd outline
-			postFxPlugin.add(go, {
-				thickness: 5,
-				outlineColor: 0xc41c00
-			});
-		})
-		.on('pointerout', function () {
-			// Remove all outline post-fx pipelines
-			postFxPlugin.remove(go);
-		})
+				// Cascade 2nd outline
+				postFxPlugin.add(go, {
+					thickness: 5,
+					outlineColor: 0xc41c00
+				});
+			})
+			.on('pointerout', function () {
+				// Remove all outline post-fx pipelines
+				postFxPlugin.remove(go);
+			})
 	}
-	addGrayscaleShader(go){
+	addGrayscaleShader(go) {
 
-		const grayscalePipeline = this.renderer.pipelines.get('Grayscale');;
+		const grayscalePipeline = this.game.renderer.pipelines.add('Grayscale', new GrayscalePipeline(this.game));
 		// var grayscaleTween = this.tweens.add({
 		// 	targets: grayscalePipeline,
 		// 	delay: 2000,
@@ -830,27 +886,27 @@ class Level_014 extends Phaser.Scene {
 		// 	paused: true
 		// });
 		go.setInteractive()
-		.on('pointerdown', function (pointer) {
+			.on('pointerdown', function (pointer) {
 
-			if (this.pipeline === grayscalePipeline){
+				if (this.pipeline === grayscalePipeline) {
 
-				this.resetPipeline();
-				//grayscaleTween.stop();
-			}
-			else {
+					this.resetPipeline();
+					//grayscaleTween.stop();
+				}
+				else {
 
-				this.setPipeline('Grayscale');
-				// grayscaleTween.play();
-			}
-		});
+					this.setPipeline('Grayscale');
+					// grayscaleTween.play();
+				}
+			});
 	}
-	addMultiShader(go, tf){
+	addMultiShader(go, tf) {
 
 		const bitmask1 = go.createBitmapMask();
 		const shader = this.add.shader(
-			'SpiralTime', 
-			go.x, 
-			go.y, 
+			'SpiralTime',
+			go.x,
+			go.y,
 			800, //go.width, 
 			800, //go.height//,
 			//['satelit_01']
@@ -860,10 +916,10 @@ class Level_014 extends Phaser.Scene {
 		console.dir(shader)
 
 		var sycleArr = new McArray([
-			'Warp',  
-			'Fireball', 
-			'Particles', 
-			'Rainbow Spiral', 
+			'Warp',
+			'Fireball',
+			'Particles',
+			'Rainbow Spiral',
 			'Hilights',
 			'Colorful Voronoi',
 			'Colorful Waves',
@@ -878,7 +934,7 @@ class Level_014 extends Phaser.Scene {
 			//shader.setChannel0('satelit_02');
 			var nextShaderName = sycleArr.getNext();
 			Ctrace("nextShaderName:{0}", nextShaderName)
-			if ( nextShaderName == "None" ){
+			if (nextShaderName == "None") {
 
 				//..
 			} else {
@@ -888,33 +944,21 @@ class Level_014 extends Phaser.Scene {
 			tf.setText(nextShaderName);
 		})
 	}
-	addNoiseShader(go){
+	addNoiseShader(go) {
 
-		var noisePipeline = this.noisePipeline;
-		noisePipeline.set2f('outTexCoord', go.width, go.height);
-
-		// noisePipeline.set1f("uTime", 0.5);
-		// this.tweens.add({
-		// 	targets: noisePipeline,
-		// 	uTime: 1,
-		// 	ease: 'Linear',
-		// 	duration: Phaser.Math.Between(500, 1000),
-		// 	repeat: -1,
-		// 	yoyo: true
-		// });
-
-		go.setInteractive()
-		.on('pointerdown', function (pointer) {
-
-			if (this.pipeline === noisePipeline){
-
-				this.resetPipeline();
-			}
-			else {
-
-				this.setPipeline('Noise');
-			}
-		});
+		this.game.renderer.pipelines.add('Noise', new NoisePipeline(this.game)); // add
+		this.noisePipeline = this.renderer.pipelines.get('Noise'); // get
+		//this.noisePipeline.fractal = true;
+		this.noisePipeline.scale = 22.0;
+		go
+			.setPipeline('Noise')
+			.setInteractive()
+			.on('pointerdown', function () {
+				this.pipeline.fractal = !this.pipeline.fractal; // fractal switch
+			});
+		var f1 = this.datGui.addFolder('Noise - Satelite');
+		f1.add(this.noisePipeline, 'scale', 4.0, 100.0);
+		f1.add(this.noisePipeline, 'fractal', true, false);
 	}
 	unregisterEvents() {
 

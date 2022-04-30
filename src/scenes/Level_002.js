@@ -224,7 +224,7 @@ class Level_002 extends Phaser.Scene {
 		layer_top_bar.add(text_title);
 
 		// roundedrectangle
-		const roundedrectangle = this.add.roundedRectangle(959, 123, 50, 250);
+		const roundedrectangle = this.add.roundedRectangle(959, 126, 50, 300);
 		roundedrectangle.setOrigin(0, 0);
 		roundedrectangle.fillColor = 6828205;
 		roundedrectangle.isStroked = true;
@@ -235,31 +235,30 @@ class Level_002 extends Phaser.Scene {
 		roundedrectangle.radiusBL = 20;
 		roundedrectangle.radiusBR = 20;
 		roundedrectangle.shadowAlpha = 0;
-		layer_top_bar.add(roundedrectangle);
 
 		// btnGitHub
-		const btnGitHub = new BtnGitHub(this, 984, 339);
+		const btnGitHub = new BtnGitHub(this, 984, 399);
+		this.add.existing(btnGitHub);
 		btnGitHub.scaleX = 0.5;
 		btnGitHub.scaleY = 0.5;
-		layer_top_bar.add(btnGitHub);
+
+		// btnHome
+		const btnHome = new BtnHome(this, 984, 319);
+		this.add.existing(btnHome);
+		btnHome.scaleX = 0.5;
+		btnHome.scaleY = 0.5;
 
 		// btnRefreshPage
-		const btnRefreshPage = new BtnRefreshPage(this, 984, 219);
+		const btnRefreshPage = new BtnRefreshPage(this, 984, 239);
+		this.add.existing(btnRefreshPage);
 		btnRefreshPage.scaleX = 0.5;
 		btnRefreshPage.scaleY = 0.5;
-		layer_top_bar.add(btnRefreshPage);
 
 		// btnFullScreen
 		const btnFullScreen = new BtnFullScreen(this, 984, 159);
+		this.add.existing(btnFullScreen);
 		btnFullScreen.scaleX = 0.5;
 		btnFullScreen.scaleY = 0.5;
-		layer_top_bar.add(btnFullScreen);
-
-		// btnHome
-		const btnHome = new BtnHome(this, 984, 279);
-		btnHome.scaleX = 0.5;
-		btnHome.scaleY = 0.5;
-		layer_top_bar.add(btnHome);
 
 		// text_1_1 (components)
 		const text_1_1NavigateToScene = new NavigateToScene(text_1_1);
@@ -391,7 +390,19 @@ class Level_002 extends Phaser.Scene {
 		btnGitHubComponentBase.colorize = true;
 		btnGitHubComponentBase.hexColor = "0xaa7edf";
 		btnGitHubComponentBase.componentType = "Button";
-		new ClickButton(btnGitHub);
+		const btnGitHubClickButton = new ClickButton(btnGitHub);
+		btnGitHubClickButton.hitAreaScaleX = 1.8;
+		btnGitHubClickButton.hitAreaScaleY = 1.8;
+
+		// btnHome (components)
+		const btnHomeComponentBase = new ComponentBase(btnHome);
+		btnHomeComponentBase.instanceName = "btn_home_01";
+		btnHomeComponentBase.colorize = true;
+		btnHomeComponentBase.hexColor = "0xaa7edf";
+		btnHomeComponentBase.componentType = "Button";
+		const btnHomeClickButton = new ClickButton(btnHome);
+		btnHomeClickButton.hitAreaScaleX = 1.8;
+		btnHomeClickButton.hitAreaScaleY = 1.8;
 
 		// btnRefreshPage (components)
 		const btnRefreshPageComponentBase = new ComponentBase(btnRefreshPage);
@@ -399,7 +410,9 @@ class Level_002 extends Phaser.Scene {
 		btnRefreshPageComponentBase.colorize = true;
 		btnRefreshPageComponentBase.hexColor = "0xaa7edf";
 		btnRefreshPageComponentBase.componentType = "Button";
-		new ClickButton(btnRefreshPage);
+		const btnRefreshPageClickButton = new ClickButton(btnRefreshPage);
+		btnRefreshPageClickButton.hitAreaScaleX = 1.8;
+		btnRefreshPageClickButton.hitAreaScaleY = 1.8;
 
 		// btnFullScreen (components)
 		const btnFullScreenComponentBase = new ComponentBase(btnFullScreen);
@@ -407,15 +420,9 @@ class Level_002 extends Phaser.Scene {
 		btnFullScreenComponentBase.colorize = true;
 		btnFullScreenComponentBase.hexColor = "0xaa7edf";
 		btnFullScreenComponentBase.componentType = "SwitchButton";
-		new SwitchButton(btnFullScreen);
-
-		// btnHome (components)
-		const btnHomeComponentBase = new ComponentBase(btnHome);
-		btnHomeComponentBase.instanceName = "btn_home_01";
-		btnHomeComponentBase.colorize = true;
-		btnHomeComponentBase.hexColor = "0xaa7edf";
-		btnHomeComponentBase.componentType = "SwitchButton";
-		new ClickButton(btnHome);
+		const btnFullScreenSwitchButton = new SwitchButton(btnFullScreen);
+		btnFullScreenSwitchButton.hitAreaScaleX = 1.8;
+		btnFullScreenSwitchButton.hitAreaScaleY = 1.8;
 
 		this.all_color_buttons = all_color_buttons;
 		this.all_color_shapes = all_color_shapes;

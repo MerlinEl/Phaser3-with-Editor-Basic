@@ -335,125 +335,6 @@
                     "shadow.offsetY": 2,
                     "shadow.fill": true,
                     "shadow.color": "#5e41a2ff"
-                },
-                {
-                    "type": "RoundedRectangle",
-                    "id": "2ba32513-fd91-47ff-86b7-e291574a1dbb",
-                    "label": "roundedrectangle",
-                    "components": [],
-                    "x": 959,
-                    "y": 123,
-                    "originX": 0,
-                    "originY": 0,
-                    "width": 50,
-                    "height": 250,
-                    "radius": 20,
-                    "radiusTL": 20,
-                    "radiusTR": 20,
-                    "radiusBL": 20,
-                    "radiusBR": 20,
-                    "fillColor": "#6830ad",
-                    "isStroked": true,
-                    "strokeColor": "#aa7edf",
-                    "shadowAlpha": 0
-                },
-                {
-                    "prefabId": "cd7f52ab-9c14-4e9b-a8ce-38abfefedc20",
-                    "id": "ee5cac1c-b3ab-4d80-8d1c-b50e0e8e79f0",
-                    "unlock": [
-                        "x",
-                        "y",
-                        "scaleX",
-                        "scaleY"
-                    ],
-                    "label": "btnGitHub",
-                    "components": [
-                        "ComponentBase",
-                        "ClickButton"
-                    ],
-                    "ComponentBase.instanceName": "btn_github_01",
-                    "ComponentBase.colorize": true,
-                    "ComponentBase.hexColor": "0xaa7edf",
-                    "ComponentBase.componentType": "Button",
-                    "x": 984,
-                    "y": 339,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5,
-                    "nestedPrefabs": []
-                },
-                {
-                    "prefabId": "fda9c326-7276-4db3-b72a-cea60406943c",
-                    "id": "4b5cae02-546c-4672-82da-08c9c15644cc",
-                    "unlock": [
-                        "x",
-                        "y",
-                        "scaleX",
-                        "scaleY"
-                    ],
-                    "label": "btnRefreshPage",
-                    "scope": "CLASS",
-                    "components": [
-                        "ComponentBase",
-                        "ClickButton"
-                    ],
-                    "ComponentBase.instanceName": "btn_reload_page_01",
-                    "ComponentBase.colorize": true,
-                    "ComponentBase.hexColor": "0xaa7edf",
-                    "ComponentBase.componentType": "Button",
-                    "x": 984,
-                    "y": 219,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5,
-                    "nestedPrefabs": []
-                },
-                {
-                    "prefabId": "ea2929bc-a65f-4039-9b69-5cb251333f73",
-                    "id": "457b9c61-9a8f-4631-8ac6-25107c46d97e",
-                    "unlock": [
-                        "x",
-                        "y",
-                        "scaleX",
-                        "scaleY"
-                    ],
-                    "label": "btnFullScreen",
-                    "scope": "CLASS",
-                    "components": [
-                        "ComponentBase",
-                        "SwitchButton"
-                    ],
-                    "ComponentBase.instanceName": "btn_fullscreen_switch_01",
-                    "ComponentBase.colorize": true,
-                    "ComponentBase.hexColor": "0xaa7edf",
-                    "ComponentBase.componentType": "SwitchButton",
-                    "x": 984,
-                    "y": 159,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5,
-                    "nestedPrefabs": []
-                },
-                {
-                    "prefabId": "edfb58ce-0c27-45c0-a8cd-57193467122b",
-                    "id": "b93e8260-205c-47eb-a86d-61510c949251",
-                    "unlock": [
-                        "x",
-                        "y",
-                        "scaleX",
-                        "scaleY"
-                    ],
-                    "label": "btnHome",
-                    "components": [
-                        "ComponentBase",
-                        "ClickButton"
-                    ],
-                    "ComponentBase.instanceName": "btn_home_01",
-                    "ComponentBase.colorize": true,
-                    "ComponentBase.hexColor": "0xaa7edf",
-                    "ComponentBase.componentType": "SwitchButton",
-                    "x": 984,
-                    "y": 279,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5,
-                    "nestedPrefabs": []
                 }
             ]
         },
@@ -605,8 +486,8 @@
             "components": [
                 "PushOnClick"
             ],
-            "x": 644,
-            "y": 392,
+            "x": 627,
+            "y": 386,
             "originY": 0.5,
             "text": "blur : vertical - horizontal",
             "fontFamily": "Arial",
@@ -626,8 +507,8 @@
             "components": [
                 "PushOnClick"
             ],
-            "x": 88,
-            "y": 261,
+            "x": 136,
+            "y": 254,
             "originY": 0.5,
             "text": "touch to switch shader :",
             "fontFamily": "Arial",
@@ -648,8 +529,8 @@
             "components": [
                 "PushOnClick"
             ],
-            "x": 276,
-            "y": 262,
+            "x": 324,
+            "y": 255,
             "originY": 0.5,
             "text": "SpiralTime",
             "fontFamily": "Arial",
@@ -762,8 +643,8 @@
             "components": [
                 "PushOnClick"
             ],
-            "x": 835,
-            "y": 586,
+            "x": 779,
+            "y": 585,
             "originY": 0.5,
             "text": "touch - grayscale",
             "fontFamily": "Arial",
@@ -783,10 +664,10 @@
             "components": [
                 "PushOnClick"
             ],
-            "x": 40,
-            "y": 509,
+            "x": 6,
+            "y": 526,
             "originY": 0.5,
-            "text": "touch - noise",
+            "text": "touch noise simple - fractal",
             "fontFamily": "Arial",
             "fontSize": "18px",
             "fontStyle": "italic",
@@ -804,8 +685,8 @@
             "components": [
                 "PushOnClick"
             ],
-            "x": 167,
-            "y": 677,
+            "x": 209,
+            "y": 407,
             "originY": 0.5,
             "text": "touch - plasma",
             "fontFamily": "Arial",
@@ -819,20 +700,158 @@
             "shadow.color": "#1d5970ff"
         },
         {
+            "type": "RoundedRectangle",
+            "id": "d588262d-e1db-44cc-8969-e9c7265cd65b",
+            "label": "roundedrectangle",
+            "components": [],
+            "x": 959,
+            "y": 126,
+            "originX": 0,
+            "originY": 0,
+            "width": 50,
+            "height": 300,
+            "radius": 20,
+            "radiusTL": 20,
+            "radiusTR": 20,
+            "radiusBL": 20,
+            "radiusBR": 20,
+            "fillColor": "#6830ad",
+            "isStroked": true,
+            "strokeColor": "#aa7edf",
+            "shadowAlpha": 0
+        },
+        {
+            "prefabId": "cd7f52ab-9c14-4e9b-a8ce-38abfefedc20",
+            "id": "6751636a-d184-4b83-9491-a77788ed5f4c",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "btnGitHub",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "btn_github_01",
+            "ComponentBase.colorize": true,
+            "ComponentBase.hexColor": "0xaa7edf",
+            "ComponentBase.componentType": "Button",
+            "ClickButton.hitAreaScaleX": 1.8,
+            "ClickButton.hitAreaScaleY": 1.8,
+            "x": 984,
+            "y": 399,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "edfb58ce-0c27-45c0-a8cd-57193467122b",
+            "id": "27aabb3a-807d-4924-9782-8d2a47bddbfc",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "btnHome",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "btn_home_01",
+            "ComponentBase.colorize": true,
+            "ComponentBase.hexColor": "0xaa7edf",
+            "ComponentBase.componentType": "Button",
+            "ClickButton.hitAreaScaleX": 1.8,
+            "ClickButton.hitAreaScaleY": 1.8,
+            "x": 984,
+            "y": 319,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "fda9c326-7276-4db3-b72a-cea60406943c",
+            "id": "141a251f-4fad-4f29-a85b-2a13739b1c28",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "btnRefreshPage",
+            "scope": "CLASS",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "btn_reload_page_01",
+            "ComponentBase.colorize": true,
+            "ComponentBase.hexColor": "0xaa7edf",
+            "ComponentBase.componentType": "Button",
+            "ClickButton.hitAreaScaleX": 1.8,
+            "ClickButton.hitAreaScaleY": 1.8,
+            "x": 984,
+            "y": 239,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "ea2929bc-a65f-4039-9b69-5cb251333f73",
+            "id": "65a784ce-8818-407a-acbf-057aec99ee67",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "btnFullScreen",
+            "scope": "CLASS",
+            "components": [
+                "ComponentBase",
+                "SwitchButton"
+            ],
+            "ComponentBase.instanceName": "btn_fullscreen_switch_01",
+            "ComponentBase.colorize": true,
+            "ComponentBase.hexColor": "0xaa7edf",
+            "ComponentBase.componentType": "SwitchButton",
+            "SwitchButton.hitAreaScaleX": 1.8,
+            "SwitchButton.hitAreaScaleY": 1.8,
+            "x": 984,
+            "y": 159,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "nestedPrefabs": []
+        },
+        {
+            "type": "Image",
+            "id": "c601b8b8-f094-44f4-95e4-b3dd758f5fd5",
+            "label": "satelit_06",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "satelit 02"
+            },
+            "x": 300,
+            "y": 344,
+            "scaleX": 0.1389633463513522,
+            "scaleY": 0.1389633463513522,
+            "flipX": true
+        },
+        {
             "type": "Text",
-            "id": "1339dfe1-65ed-44c1-9c1e-5f99b5e00dc3",
-            "label": "text_8",
+            "id": "3480d8b0-76f8-47ff-9bdd-c9af71920093",
+            "label": "text_13",
             "components": [
                 "PushOnClick"
             ],
-            "x": 153,
-            "y": 512,
+            "x": 155,
+            "y": 686,
             "originY": 0.5,
-            "tintTopLeft": "#fb6c40",
-            "tintTopRight": "#fb6c40",
-            "tintBottomLeft": "#fb6c40",
-            "tintBottomRight": "#fb6c40",
-            "text": "TODO",
+            "text": "touch - smooth outline",
             "fontFamily": "Arial",
             "fontSize": "18px",
             "fontStyle": "italic",
@@ -844,129 +863,109 @@
             "shadow.color": "#1d5970ff"
         },
         {
-            "type": "Text",
-            "id": "2c07daa2-96dd-460b-a090-2a881a1ad288",
-            "label": "text_7",
-            "components": [
-                "PushOnClick"
+            "prefabId": "56ed7455-f9b4-48fe-8c38-5a80d592ef4f",
+            "id": "2fa28ffe-6dcb-4751-82ab-0c8c1b3d4e1b",
+            "unlock": [
+                "x",
+                "y",
+                "progressStatus"
             ],
-            "x": 295,
-            "y": 678,
-            "originY": 0.5,
-            "tintTopLeft": "#fb6c40",
-            "tintTopRight": "#fb6c40",
-            "tintBottomLeft": "#fb6c40",
-            "tintBottomRight": "#fb6c40",
-            "text": "TODO",
-            "fontFamily": "Arial",
-            "fontSize": "18px",
-            "fontStyle": "italic",
-            "color": "#76aef0ff",
-            "stroke": "#8b8cb2",
-            "strokeThickness": 1,
-            "shadow.offsetX": 2,
-            "shadow.offsetY": 2,
-            "shadow.color": "#1d5970ff"
+            "label": "status_Icon_01",
+            "progressStatus": "On Hold",
+            "components": [],
+            "x": 384,
+            "y": 688,
+            "nestedPrefabs": []
         },
         {
-            "type": "Text",
-            "id": "ffc61949-c82a-4ecb-9780-d09ecdb193ba",
-            "label": "text_9",
-            "components": [
-                "PushOnClick"
+            "prefabId": "56ed7455-f9b4-48fe-8c38-5a80d592ef4f",
+            "id": "1eb7df0b-737a-4775-b4ce-edc9a7c54401",
+            "unlock": [
+                "x",
+                "y",
+                "progressStatus"
             ],
-            "x": 850,
-            "y": 392,
-            "originY": 0.5,
-            "tintTopLeft": "#fb6c40",
-            "tintTopRight": "#fb6c40",
-            "tintBottomLeft": "#fb6c40",
-            "tintBottomRight": "#fb6c40",
-            "text": "TODO",
-            "fontFamily": "Arial",
-            "fontSize": "18px",
-            "fontStyle": "italic",
-            "color": "#76aef0ff",
-            "stroke": "#8b8cb2",
-            "strokeThickness": 1,
-            "shadow.offsetX": 2,
-            "shadow.offsetY": 2,
-            "shadow.color": "#1d5970ff"
+            "label": "status_Icon",
+            "progressStatus": "Done",
+            "components": [],
+            "x": 972,
+            "y": 585,
+            "nestedPrefabs": []
         },
         {
-            "type": "Text",
-            "id": "fdad4232-b6dc-44c4-87d3-2586bd202a8a",
-            "label": "text_10",
-            "components": [
-                "PushOnClick"
+            "prefabId": "56ed7455-f9b4-48fe-8c38-5a80d592ef4f",
+            "id": "99eeb611-09eb-42a9-9623-ba6ad2a18d78",
+            "unlock": [
+                "x",
+                "y",
+                "progressStatus"
             ],
-            "x": 561,
-            "y": 659,
-            "originY": 0.5,
-            "tintTopLeft": "#fb6c40",
-            "tintTopRight": "#fb6c40",
-            "tintBottomLeft": "#fb6c40",
-            "tintBottomRight": "#fb6c40",
-            "text": "TODO",
-            "fontFamily": "Arial",
-            "fontSize": "18px",
-            "fontStyle": "italic",
-            "color": "#76aef0ff",
-            "stroke": "#8b8cb2",
-            "strokeThickness": 1,
-            "shadow.offsetX": 2,
-            "shadow.offsetY": 2,
-            "shadow.color": "#1d5970ff"
+            "label": "status_Icon_1",
+            "progressStatus": "On Hold",
+            "components": [],
+            "x": 602,
+            "y": 658,
+            "nestedPrefabs": []
         },
         {
-            "type": "Text",
-            "id": "e3d44f8d-3f30-4ee0-8c56-25b3ac3591f5",
-            "label": "text_11",
-            "components": [
-                "PushOnClick"
+            "prefabId": "56ed7455-f9b4-48fe-8c38-5a80d592ef4f",
+            "id": "5df56d25-56e3-444e-9600-223bae38a308",
+            "unlock": [
+                "x",
+                "y",
+                "progressStatus"
             ],
-            "x": 980,
-            "y": 588,
-            "originY": 0.5,
-            "tintTopLeft": "#fb6c40",
-            "tintTopRight": "#fb6c40",
-            "tintBottomLeft": "#fb6c40",
-            "tintBottomRight": "#fb6c40",
-            "text": "OK",
-            "fontFamily": "Arial",
-            "fontSize": "18px",
-            "fontStyle": "italic",
-            "color": "#76aef0ff",
-            "stroke": "#8b8cb2",
-            "strokeThickness": 1,
-            "shadow.offsetX": 2,
-            "shadow.offsetY": 2,
-            "shadow.color": "#1d5970ff"
+            "label": "status_Icon_2",
+            "progressStatus": "Done",
+            "components": [],
+            "x": 267,
+            "y": 528,
+            "nestedPrefabs": []
         },
         {
-            "type": "Text",
-            "id": "de04eebc-38ff-44f8-b995-7c96bb08ee6c",
-            "label": "text_12",
-            "components": [
-                "PushOnClick"
+            "prefabId": "56ed7455-f9b4-48fe-8c38-5a80d592ef4f",
+            "id": "58c93463-0bca-4984-881a-aa7ac7f3ea68",
+            "unlock": [
+                "x",
+                "y",
+                "progressStatus"
             ],
-            "x": 373,
-            "y": 263,
-            "originY": 0.5,
-            "tintTopLeft": "#fb6c40",
-            "tintTopRight": "#fb6c40",
-            "tintBottomLeft": "#fb6c40",
-            "tintBottomRight": "#fb6c40",
-            "text": "OK",
-            "fontFamily": "Arial",
-            "fontSize": "18px",
-            "fontStyle": "italic",
-            "color": "#76aef0ff",
-            "stroke": "#8b8cb2",
-            "strokeThickness": 1,
-            "shadow.offsetX": 2,
-            "shadow.offsetY": 2,
-            "shadow.color": "#1d5970ff"
+            "label": "status_Icon_3",
+            "progressStatus": "Done",
+            "components": [],
+            "x": 375,
+            "y": 408,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "56ed7455-f9b4-48fe-8c38-5a80d592ef4f",
+            "id": "a6b2b597-94fd-494c-8411-062842c689d4",
+            "unlock": [
+                "x",
+                "y",
+                "progressStatus"
+            ],
+            "label": "status_Icon_4",
+            "progressStatus": "Done",
+            "components": [],
+            "x": 97,
+            "y": 256,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "56ed7455-f9b4-48fe-8c38-5a80d592ef4f",
+            "id": "bd30e701-95b3-42b8-bf33-8537a113832b",
+            "unlock": [
+                "x",
+                "y",
+                "progressStatus"
+            ],
+            "label": "status_Icon_5",
+            "progressStatus": "On Hold",
+            "components": [],
+            "x": 881,
+            "y": 387,
+            "nestedPrefabs": []
         }
     ],
     "plainObjects": [],

@@ -39,9 +39,7 @@ class Boot extends Phaser.Scene {
 		this.load.plugin('rexoutlinepipelineplugin', 'lib/filters/rexoutlinepipelineplugin.min.js', true);
 		this.load.plugin('rexglowfilter2pipelineplugin', 'lib/filters/rexglowfilter2pipelineplugin.min.js', true);
 		this.load.plugin('glowpipelineplugin', 'lib/filters/glowpipelineplugin.js', true);
-		this.load.plugin('outlineglowpipelineplugin', 'lib/filters/outlineglowpipelineplugin.js', true);
-		this.load.plugin('blurpipelineplugin', 'lib/filters/blurpipelineplugin.js', true);
-
+		
 		// Load preloader asset
 		this.load.pack("preload-asset-pack", "assets/preload-asset-pack.json");
 

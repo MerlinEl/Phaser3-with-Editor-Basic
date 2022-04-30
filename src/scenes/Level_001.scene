@@ -489,125 +489,6 @@
                     "shadow.color": "#5e41a2ff"
                 },
                 {
-                    "type": "RoundedRectangle",
-                    "id": "01c16eca-6f94-4c73-83ae-1dee3f1af81f",
-                    "label": "roundedrectangle",
-                    "components": [],
-                    "x": 959,
-                    "y": 123,
-                    "originX": 0,
-                    "originY": 0,
-                    "width": 50,
-                    "height": 250,
-                    "radius": 20,
-                    "radiusTL": 20,
-                    "radiusTR": 20,
-                    "radiusBL": 20,
-                    "radiusBR": 20,
-                    "fillColor": "#6830ad",
-                    "isStroked": true,
-                    "strokeColor": "#aa7edf",
-                    "shadowAlpha": 0
-                },
-                {
-                    "prefabId": "cd7f52ab-9c14-4e9b-a8ce-38abfefedc20",
-                    "id": "d388d2a6-faff-4bca-ac32-ac96a7342621",
-                    "unlock": [
-                        "x",
-                        "y",
-                        "scaleX",
-                        "scaleY"
-                    ],
-                    "label": "btnGitHub",
-                    "components": [
-                        "ComponentBase",
-                        "ClickButton"
-                    ],
-                    "ComponentBase.instanceName": "btn_github_01",
-                    "ComponentBase.colorize": true,
-                    "ComponentBase.hexColor": "0xaa7edf",
-                    "ComponentBase.componentType": "Button",
-                    "x": 984,
-                    "y": 339,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5,
-                    "nestedPrefabs": []
-                },
-                {
-                    "prefabId": "fda9c326-7276-4db3-b72a-cea60406943c",
-                    "id": "c5ec163a-fab3-423b-8b3d-03d8badd7e0f",
-                    "unlock": [
-                        "x",
-                        "y",
-                        "scaleX",
-                        "scaleY"
-                    ],
-                    "label": "btnRefreshPage",
-                    "scope": "CLASS",
-                    "components": [
-                        "ComponentBase",
-                        "ClickButton"
-                    ],
-                    "ComponentBase.instanceName": "btn_reload_page_01",
-                    "ComponentBase.colorize": true,
-                    "ComponentBase.hexColor": "0xaa7edf",
-                    "ComponentBase.componentType": "Button",
-                    "x": 984,
-                    "y": 219,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5,
-                    "nestedPrefabs": []
-                },
-                {
-                    "prefabId": "ea2929bc-a65f-4039-9b69-5cb251333f73",
-                    "id": "a7e851b6-4282-4a3b-a099-7af275c6d24f",
-                    "unlock": [
-                        "x",
-                        "y",
-                        "scaleX",
-                        "scaleY"
-                    ],
-                    "label": "btnFullScreen",
-                    "scope": "CLASS",
-                    "components": [
-                        "ComponentBase",
-                        "SwitchButton"
-                    ],
-                    "ComponentBase.instanceName": "btn_fullscreen_switch_01",
-                    "ComponentBase.colorize": true,
-                    "ComponentBase.hexColor": "0xaa7edf",
-                    "ComponentBase.componentType": "SwitchButton",
-                    "x": 984,
-                    "y": 159,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5,
-                    "nestedPrefabs": []
-                },
-                {
-                    "prefabId": "edfb58ce-0c27-45c0-a8cd-57193467122b",
-                    "id": "28e4a0ce-f37d-46db-a3dd-4edf5a141e36",
-                    "unlock": [
-                        "x",
-                        "y",
-                        "scaleX",
-                        "scaleY"
-                    ],
-                    "label": "btnHome",
-                    "components": [
-                        "ComponentBase",
-                        "ClickButton"
-                    ],
-                    "ComponentBase.instanceName": "btn_home_01",
-                    "ComponentBase.colorize": true,
-                    "ComponentBase.hexColor": "0xaa7edf",
-                    "ComponentBase.componentType": "SwitchButton",
-                    "x": 984,
-                    "y": 279,
-                    "scaleX": 0.5,
-                    "scaleY": 0.5,
-                    "nestedPrefabs": []
-                },
-                {
                     "type": "Text",
                     "id": "14d111d4-ff49-44a4-9c4a-ea92ef908599",
                     "label": "text_1_1_1_1_1_1",
@@ -628,6 +509,133 @@
                     "shadow.color": "#1d5970ff"
                 }
             ]
+        },
+        {
+            "type": "RoundedRectangle",
+            "id": "32502c00-55b1-4981-b9f2-66257290a0d2",
+            "label": "roundedrectangle",
+            "components": [],
+            "x": 959,
+            "y": 126,
+            "originX": 0,
+            "originY": 0,
+            "width": 50,
+            "height": 300,
+            "radius": 20,
+            "radiusTL": 20,
+            "radiusTR": 20,
+            "radiusBL": 20,
+            "radiusBR": 20,
+            "fillColor": "#6830ad",
+            "isStroked": true,
+            "strokeColor": "#aa7edf",
+            "shadowAlpha": 0
+        },
+        {
+            "prefabId": "cd7f52ab-9c14-4e9b-a8ce-38abfefedc20",
+            "id": "1ae86225-45b2-4043-aa5e-adb383dc8c2e",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "btnGitHub",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "btn_github_01",
+            "ComponentBase.colorize": true,
+            "ComponentBase.hexColor": "0xaa7edf",
+            "ComponentBase.componentType": "Button",
+            "ClickButton.hitAreaScaleX": 1.8,
+            "ClickButton.hitAreaScaleY": 1.8,
+            "x": 984,
+            "y": 399,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "edfb58ce-0c27-45c0-a8cd-57193467122b",
+            "id": "60a0237d-2571-4b0c-8fe3-222a77209665",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "btnHome",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "btn_home_01",
+            "ComponentBase.colorize": true,
+            "ComponentBase.hexColor": "0xaa7edf",
+            "ComponentBase.componentType": "Button",
+            "ClickButton.hitAreaScaleX": 1.8,
+            "ClickButton.hitAreaScaleY": 1.8,
+            "x": 984,
+            "y": 319,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "fda9c326-7276-4db3-b72a-cea60406943c",
+            "id": "7da3a503-777a-455c-a100-45187fd0452c",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "btnRefreshPage",
+            "scope": "CLASS",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "btn_reload_page_01",
+            "ComponentBase.colorize": true,
+            "ComponentBase.hexColor": "0xaa7edf",
+            "ComponentBase.componentType": "Button",
+            "ClickButton.hitAreaScaleX": 1.8,
+            "ClickButton.hitAreaScaleY": 1.8,
+            "x": 984,
+            "y": 239,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "nestedPrefabs": []
+        },
+        {
+            "prefabId": "ea2929bc-a65f-4039-9b69-5cb251333f73",
+            "id": "dcdf36f7-eae0-4583-88b6-5884716f8b9b",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "btnFullScreen",
+            "scope": "CLASS",
+            "components": [
+                "ComponentBase",
+                "SwitchButton"
+            ],
+            "ComponentBase.instanceName": "btn_fullscreen_switch_01",
+            "ComponentBase.colorize": true,
+            "ComponentBase.hexColor": "0xaa7edf",
+            "ComponentBase.componentType": "SwitchButton",
+            "SwitchButton.hitAreaScaleX": 1.8,
+            "SwitchButton.hitAreaScaleY": 1.8,
+            "x": 984,
+            "y": 159,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "nestedPrefabs": []
         }
     ],
     "plainObjects": [],

@@ -166,44 +166,6 @@ class Level_012 extends Phaser.Scene {
 		text_title.setStyle({ "color": "#f5dbf5ff", "fontFamily": "vijaya_cz", "fontSize": "40px", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#5e41a2ff", "shadow.fill":true});
 		layer_top_bar.add(text_title);
 
-		// roundedrectangle
-		const roundedrectangle = this.add.roundedRectangle(959, 123, 50, 250);
-		roundedrectangle.setOrigin(0, 0);
-		roundedrectangle.fillColor = 6828205;
-		roundedrectangle.isStroked = true;
-		roundedrectangle.strokeColor = 11173599;
-		roundedrectangle.radius = 20;
-		roundedrectangle.radiusTL = 20;
-		roundedrectangle.radiusTR = 20;
-		roundedrectangle.radiusBL = 20;
-		roundedrectangle.radiusBR = 20;
-		roundedrectangle.shadowAlpha = 0;
-		layer_top_bar.add(roundedrectangle);
-
-		// btnGitHub
-		const btnGitHub = new BtnGitHub(this, 984, 339);
-		btnGitHub.scaleX = 0.5;
-		btnGitHub.scaleY = 0.5;
-		layer_top_bar.add(btnGitHub);
-
-		// btnRefreshPage
-		const btnRefreshPage = new BtnRefreshPage(this, 984, 219);
-		btnRefreshPage.scaleX = 0.5;
-		btnRefreshPage.scaleY = 0.5;
-		layer_top_bar.add(btnRefreshPage);
-
-		// btnFullScreen
-		const btnFullScreen = new BtnFullScreen(this, 984, 159);
-		btnFullScreen.scaleX = 0.5;
-		btnFullScreen.scaleY = 0.5;
-		layer_top_bar.add(btnFullScreen);
-
-		// btnHome
-		const btnHome = new BtnHome(this, 984, 279);
-		btnHome.scaleX = 0.5;
-		btnHome.scaleY = 0.5;
-		layer_top_bar.add(btnHome);
-
 		// guide_kvitek_001
 		const guide_kvitek_001 = new Guide_Kvitek_001(this, 814, 289);
 		this.add.existing(guide_kvitek_001);
@@ -334,6 +296,43 @@ class Level_012 extends Phaser.Scene {
 		satelit_01_tf.text = "Save - Load and Edit works only at Local Server";
 		satelit_01_tf.setStyle({ "color": "#76aef0ff", "fontFamily": "Arial", "fontSize": "18px", "fontStyle": "italic", "stroke": "#8b8cb2", "strokeThickness":1,"shadow.offsetX":2,"shadow.offsetY":2,"shadow.color": "#1d5970ff" });
 
+		// roundedrectangle
+		const roundedrectangle = this.add.roundedRectangle(959, 126, 50, 300);
+		roundedrectangle.setOrigin(0, 0);
+		roundedrectangle.fillColor = 6828205;
+		roundedrectangle.isStroked = true;
+		roundedrectangle.strokeColor = 11173599;
+		roundedrectangle.radius = 20;
+		roundedrectangle.radiusTL = 20;
+		roundedrectangle.radiusTR = 20;
+		roundedrectangle.radiusBL = 20;
+		roundedrectangle.radiusBR = 20;
+		roundedrectangle.shadowAlpha = 0;
+
+		// btnGitHub
+		const btnGitHub = new BtnGitHub(this, 984, 399);
+		this.add.existing(btnGitHub);
+		btnGitHub.scaleX = 0.5;
+		btnGitHub.scaleY = 0.5;
+
+		// btnHome
+		const btnHome = new BtnHome(this, 984, 319);
+		this.add.existing(btnHome);
+		btnHome.scaleX = 0.5;
+		btnHome.scaleY = 0.5;
+
+		// btnRefreshPage
+		const btnRefreshPage = new BtnRefreshPage(this, 984, 239);
+		this.add.existing(btnRefreshPage);
+		btnRefreshPage.scaleX = 0.5;
+		btnRefreshPage.scaleY = 0.5;
+
+		// btnFullScreen
+		const btnFullScreen = new BtnFullScreen(this, 984, 159);
+		this.add.existing(btnFullScreen);
+		btnFullScreen.scaleX = 0.5;
+		btnFullScreen.scaleY = 0.5;
+
 		// text_1_1 (components)
 		const text_1_1NavigateToScene = new NavigateToScene(text_1_1);
 		text_1_1NavigateToScene.hitAreaScaleY = 1.5;
@@ -348,38 +347,6 @@ class Level_012 extends Phaser.Scene {
 		const dinoNavigateToURL = new NavigateToURL(dino);
 		dinoNavigateToURL.folderName = "";
 		dinoNavigateToURL.urlPath = "https://phasereditor2d.com";
-
-		// btnGitHub (components)
-		const btnGitHubComponentBase = new ComponentBase(btnGitHub);
-		btnGitHubComponentBase.instanceName = "btn_github_01";
-		btnGitHubComponentBase.colorize = true;
-		btnGitHubComponentBase.hexColor = "0xaa7edf";
-		btnGitHubComponentBase.componentType = "Button";
-		new ClickButton(btnGitHub);
-
-		// btnRefreshPage (components)
-		const btnRefreshPageComponentBase = new ComponentBase(btnRefreshPage);
-		btnRefreshPageComponentBase.instanceName = "btn_reload_page_01";
-		btnRefreshPageComponentBase.colorize = true;
-		btnRefreshPageComponentBase.hexColor = "0xaa7edf";
-		btnRefreshPageComponentBase.componentType = "Button";
-		new ClickButton(btnRefreshPage);
-
-		// btnFullScreen (components)
-		const btnFullScreenComponentBase = new ComponentBase(btnFullScreen);
-		btnFullScreenComponentBase.instanceName = "btn_fullscreen_switch_01";
-		btnFullScreenComponentBase.colorize = true;
-		btnFullScreenComponentBase.hexColor = "0xaa7edf";
-		btnFullScreenComponentBase.componentType = "SwitchButton";
-		new SwitchButton(btnFullScreen);
-
-		// btnHome (components)
-		const btnHomeComponentBase = new ComponentBase(btnHome);
-		btnHomeComponentBase.instanceName = "btn_home_01";
-		btnHomeComponentBase.colorize = true;
-		btnHomeComponentBase.hexColor = "0xaa7edf";
-		btnHomeComponentBase.componentType = "SwitchButton";
-		new ClickButton(btnHome);
 
 		// dot_01 (components)
 		const dot_01ComponentBase = new ComponentBase(dot_01);
@@ -446,22 +413,58 @@ class Level_012 extends Phaser.Scene {
 		const btn_05ClickButton = new ClickButton(btn_05);
 		btn_05ClickButton.actionName = "bonus-edit-switch";
 
-		this.btnRefreshPage = btnRefreshPage;
-		this.btnFullScreen = btnFullScreen;
+		// btnGitHub (components)
+		const btnGitHubComponentBase = new ComponentBase(btnGitHub);
+		btnGitHubComponentBase.instanceName = "btn_github_01";
+		btnGitHubComponentBase.colorize = true;
+		btnGitHubComponentBase.hexColor = "0xaa7edf";
+		btnGitHubComponentBase.componentType = "Button";
+		const btnGitHubClickButton = new ClickButton(btnGitHub);
+		btnGitHubClickButton.hitAreaScaleX = 1.8;
+		btnGitHubClickButton.hitAreaScaleY = 1.8;
+
+		// btnHome (components)
+		const btnHomeComponentBase = new ComponentBase(btnHome);
+		btnHomeComponentBase.instanceName = "btn_home_01";
+		btnHomeComponentBase.colorize = true;
+		btnHomeComponentBase.hexColor = "0xaa7edf";
+		btnHomeComponentBase.componentType = "Button";
+		const btnHomeClickButton = new ClickButton(btnHome);
+		btnHomeClickButton.hitAreaScaleX = 1.8;
+		btnHomeClickButton.hitAreaScaleY = 1.8;
+
+		// btnRefreshPage (components)
+		const btnRefreshPageComponentBase = new ComponentBase(btnRefreshPage);
+		btnRefreshPageComponentBase.instanceName = "btn_reload_page_01";
+		btnRefreshPageComponentBase.colorize = true;
+		btnRefreshPageComponentBase.hexColor = "0xaa7edf";
+		btnRefreshPageComponentBase.componentType = "Button";
+		const btnRefreshPageClickButton = new ClickButton(btnRefreshPage);
+		btnRefreshPageClickButton.hitAreaScaleX = 1.8;
+		btnRefreshPageClickButton.hitAreaScaleY = 1.8;
+
+		// btnFullScreen (components)
+		const btnFullScreenComponentBase = new ComponentBase(btnFullScreen);
+		btnFullScreenComponentBase.instanceName = "btn_fullscreen_switch_01";
+		btnFullScreenComponentBase.colorize = true;
+		btnFullScreenComponentBase.hexColor = "0xaa7edf";
+		btnFullScreenComponentBase.componentType = "SwitchButton";
+		const btnFullScreenSwitchButton = new SwitchButton(btnFullScreen);
+		btnFullScreenSwitchButton.hitAreaScaleX = 1.8;
+		btnFullScreenSwitchButton.hitAreaScaleY = 1.8;
+
 		this.guide_kvitek_001 = guide_kvitek_001;
 		this.layer_all_dots = layer_all_dots;
 		this.text_04 = text_04;
 		this.text_05 = text_05;
 		this.bonus_01 = bonus_01;
 		this.satelit_01_tf = satelit_01_tf;
+		this.btnRefreshPage = btnRefreshPage;
+		this.btnFullScreen = btnFullScreen;
 
 		this.events.emit("scene-awake");
 	}
 
-	/** @type {BtnRefreshPage} */
-	btnRefreshPage;
-	/** @type {BtnFullScreen} */
-	btnFullScreen;
 	/** @type {Guide_Kvitek_001} */
 	guide_kvitek_001;
 	/** @type {Phaser.GameObjects.Layer} */
@@ -474,6 +477,10 @@ class Level_012 extends Phaser.Scene {
 	bonus_01;
 	/** @type {Phaser.GameObjects.Text} */
 	satelit_01_tf;
+	/** @type {BtnRefreshPage} */
+	btnRefreshPage;
+	/** @type {BtnFullScreen} */
+	btnFullScreen;
 
 	/* START-USER-CODE */
 	preload() {

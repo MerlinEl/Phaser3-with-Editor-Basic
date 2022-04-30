@@ -1,0 +1,24 @@
+#version 320 es
+
+#ifdef GL_ES
+precision mediump float;
+#endif
+
+#ifdef GL_ES
+precision mediump float;
+#endif
+
+#if __VERSION__ < 130
+#define TEXTURE2D texture2D
+#else
+#define TEXTURE2D texture
+#endif
+
+uniform float u_time;
+uniform vec2 u_mouse;
+uniform vec2 u_resolution;
+uniform sampler2D u_tex_0;
+varying vec2 v_texcoord;
+
+uniform sampler2D u_logo; // https://rawgit.com/actarian/glsl-canvas/master/docs/data/logo.jpg
+uniform vec2 u_logoResolution;

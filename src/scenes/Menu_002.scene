@@ -1605,7 +1605,7 @@
         },
         {
             "type": "RoundedRectangle",
-            "id": "f6731cf7-510f-49b3-8eae-23a1f910b0be",
+            "id": "a91111b7-10ae-41aa-8ff9-24821b4a185e",
             "label": "roundedrectangle",
             "components": [],
             "x": 959,
@@ -1626,7 +1626,7 @@
         },
         {
             "prefabId": "cd7f52ab-9c14-4e9b-a8ce-38abfefedc20",
-            "id": "27df897e-c4af-4cab-a680-9d800306c99f",
+            "id": "e9766d77-aff6-4221-bec3-e55bd01cf117",
             "unlock": [
                 "x",
                 "y",
@@ -1651,8 +1651,34 @@
             "nestedPrefabs": []
         },
         {
+            "prefabId": "edfb58ce-0c27-45c0-a8cd-57193467122b",
+            "id": "2b6041bd-379f-4ad7-816f-c265a32ba2e4",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "btnHome",
+            "components": [
+                "ComponentBase",
+                "ClickButton"
+            ],
+            "ComponentBase.instanceName": "btn_home_01",
+            "ComponentBase.colorize": true,
+            "ComponentBase.hexColor": "0xaa7edf",
+            "ComponentBase.componentType": "Button",
+            "ClickButton.hitAreaScaleX": 1.8,
+            "ClickButton.hitAreaScaleY": 1.8,
+            "x": 984,
+            "y": 319,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "nestedPrefabs": []
+        },
+        {
             "prefabId": "fda9c326-7276-4db3-b72a-cea60406943c",
-            "id": "21712b5d-5615-4516-9dfd-1e8d5eb4e55d",
+            "id": "620b998e-ef9d-472f-836f-fa1e5ed48620",
             "unlock": [
                 "x",
                 "y",
@@ -1679,7 +1705,7 @@
         },
         {
             "prefabId": "ea2929bc-a65f-4039-9b69-5cb251333f73",
-            "id": "0f542ed9-035e-4abe-8102-b0b13baf4b9f",
+            "id": "949c0f49-4bc7-4a22-b1e9-afe97818a01a",
             "unlock": [
                 "x",
                 "y",
@@ -1700,32 +1726,6 @@
             "SwitchButton.hitAreaScaleY": 1.8,
             "x": 984,
             "y": 159,
-            "scaleX": 0.5,
-            "scaleY": 0.5,
-            "nestedPrefabs": []
-        },
-        {
-            "prefabId": "edfb58ce-0c27-45c0-a8cd-57193467122b",
-            "id": "fe607a29-3277-43af-92ad-a54b90386937",
-            "unlock": [
-                "x",
-                "y",
-                "scaleX",
-                "scaleY"
-            ],
-            "label": "btnHome",
-            "components": [
-                "ComponentBase",
-                "ClickButton"
-            ],
-            "ComponentBase.instanceName": "btn_home_01",
-            "ComponentBase.colorize": true,
-            "ComponentBase.hexColor": "0xaa7edf",
-            "ComponentBase.componentType": "Button",
-            "ClickButton.hitAreaScaleX": 1.8,
-            "ClickButton.hitAreaScaleY": 1.8,
-            "x": 984,
-            "y": 319,
             "scaleX": 0.5,
             "scaleY": 0.5,
             "nestedPrefabs": []

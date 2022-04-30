@@ -1,0 +1,6 @@
+//Selects the word at the cursor, or the next occurrence of the current selection.
+Ctrl+D 
+
+//To add cursors to all the occurrences of a highlighted word 
+Ctrl+Shift+L 
+//Then select all occurrences of that word

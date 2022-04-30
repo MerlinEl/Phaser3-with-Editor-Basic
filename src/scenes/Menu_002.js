@@ -716,6 +716,12 @@ class Menu_002 extends Phaser.Scene {
 		btnGitHub.scaleX = 0.5;
 		btnGitHub.scaleY = 0.5;
 
+		// btnHome
+		const btnHome = new BtnHome(this, 984, 319);
+		this.add.existing(btnHome);
+		btnHome.scaleX = 0.5;
+		btnHome.scaleY = 0.5;
+
 		// btnRefreshPage
 		const btnRefreshPage = new BtnRefreshPage(this, 984, 239);
 		this.add.existing(btnRefreshPage);
@@ -727,12 +733,6 @@ class Menu_002 extends Phaser.Scene {
 		this.add.existing(btnFullScreen);
 		btnFullScreen.scaleX = 0.5;
 		btnFullScreen.scaleY = 0.5;
-
-		// btnHome
-		const btnHome = new BtnHome(this, 984, 319);
-		this.add.existing(btnHome);
-		btnHome.scaleX = 0.5;
-		btnHome.scaleY = 0.5;
 
 		// text_101 (components)
 		const text_101NavigateToScene = new NavigateToScene(text_101);
@@ -820,6 +820,16 @@ class Menu_002 extends Phaser.Scene {
 		btnGitHubClickButton.hitAreaScaleX = 1.8;
 		btnGitHubClickButton.hitAreaScaleY = 1.8;
 
+		// btnHome (components)
+		const btnHomeComponentBase = new ComponentBase(btnHome);
+		btnHomeComponentBase.instanceName = "btn_home_01";
+		btnHomeComponentBase.colorize = true;
+		btnHomeComponentBase.hexColor = "0xaa7edf";
+		btnHomeComponentBase.componentType = "Button";
+		const btnHomeClickButton = new ClickButton(btnHome);
+		btnHomeClickButton.hitAreaScaleX = 1.8;
+		btnHomeClickButton.hitAreaScaleY = 1.8;
+
 		// btnRefreshPage (components)
 		const btnRefreshPageComponentBase = new ComponentBase(btnRefreshPage);
 		btnRefreshPageComponentBase.instanceName = "btn_reload_page_01";
@@ -839,16 +849,6 @@ class Menu_002 extends Phaser.Scene {
 		const btnFullScreenSwitchButton = new SwitchButton(btnFullScreen);
 		btnFullScreenSwitchButton.hitAreaScaleX = 1.8;
 		btnFullScreenSwitchButton.hitAreaScaleY = 1.8;
-
-		// btnHome (components)
-		const btnHomeComponentBase = new ComponentBase(btnHome);
-		btnHomeComponentBase.instanceName = "btn_home_01";
-		btnHomeComponentBase.colorize = true;
-		btnHomeComponentBase.hexColor = "0xaa7edf";
-		btnHomeComponentBase.componentType = "Button";
-		const btnHomeClickButton = new ClickButton(btnHome);
-		btnHomeClickButton.hitAreaScaleX = 1.8;
-		btnHomeClickButton.hitAreaScaleY = 1.8;
 
 		this.btnRefreshPage = btnRefreshPage;
 		this.btnFullScreen = btnFullScreen;
